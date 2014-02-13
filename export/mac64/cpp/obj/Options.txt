@@ -1,2 +1,0 @@
- -DFLX_NO_DEBUG="1" -DFLX_NO_FOCUS_LOST_SCREEN="1" -DFLX_NO_SOUND_TRAY="1" -DHXCPP_CLANG="1" -DHXCPP_M64="1" -Ddesktop="1" -Dflixel="1" -Dhaxe3="1" -Dhaxe_release="1" -Dhaxe_ver="3." -Dhxlibc="1" -Dlime="1" -Dlime_native="1" -Dmac="1" -Dno-compilation="1" -Dno_compilation="1" -Dopenfl="1" -Dopenfl-native="1" -Dopenfl_native="1" -Dtools="1.2.8"
-/usr/lib/haxe/lib/hxcpp/3,0,2/
