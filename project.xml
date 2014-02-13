@@ -20,7 +20,18 @@
     <haxelib name="openfl" />
     <haxelib name="flixel"/>
 
-    <haxelib name="flixel-addons" />
+
+    <icon path="assets/icon.png" size="57" ></icon>
+    <icon path="assets/Icon@2x.png" size="114" ></icon>
+
+    <icon path="assets/icon-60.png" size="60" ></icon>
+    <icon path="assets/Icon-60@2x.png" size="120" ></icon>
+
+    <icon path="assets/icon-72.png" size="72" ></icon>
+    <icon path="assets/Icon-72@2x.png" size="144" ></icon>
+
+    <icon path="assets/icon-76.png" size="76" ></icon>
+    <icon path="assets/Icon-76@2x.png" size="152" ></icon>
 
     <!--
     <icon path="assets/icon.png" size="57" ></icon>

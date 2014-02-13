@@ -241,7 +241,6 @@ const char *__hxcpp_class_path[] = {
 #ifdef HXCPP_DEBUGGER
 	"../../../../src/",
 	"../../../../",
-	"/usr/lib/haxe/lib/flixel-addons/1,0,2/",
 	"/usr/lib/haxe/lib/lime/0,9,4/",
 	"/usr/lib/haxe/lib/flixel/3,0,4/",
 	"/usr/lib/haxe/lib/hxlibc/1,1,4/",

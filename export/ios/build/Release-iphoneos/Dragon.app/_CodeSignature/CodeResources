@@ -34,35 +34,35 @@
 		</data>
 		<key>Icon-60.png</key>
 		<data>
-		3wBIfPRNinLjp/ST0CFMQT1ehmo=
+		fjagHrd0xTo/IU7C33FN/Z1iJmY=
 		</data>
 		<key>Icon-60@2x.png</key>
 		<data>
-		6yDEGBqUP5+RNP5Dm9pKBISdUIg=
+		QUpsJ27+qAjHdXgUx5sLIg29c0A=
 		</data>
 		<key>Icon-72.png</key>
 		<data>
-		Z88xh6lScOuasLCRyMIYD/Kj1DE=
+		Bewg2qntVuKVUEVlIhSKct6m9RQ=
 		</data>
 		<key>Icon-72@2x.png</key>
 		<data>
-		gWPddPdqT7sTv6c4B2q8nnwj+qM=
+		8i3ubwhMnJnqdIUNTCTWium+5V4=
 		</data>
 		<key>Icon-76.png</key>
 		<data>
-		Gw1XW41+DaziGZgfhCR6dVnVX+w=
+		pSpD6iG6ZP50Gm3EjUoZYCEbj60=
 		</data>
 		<key>Icon-76@2x.png</key>
 		<data>
-		L2c4CFldIRLBLJOsFBbthh4y6mU=
+		jH+PIPBROYE6AdcA7eIdu0gvsHM=
 		</data>
 		<key>Icon.png</key>
 		<data>
-		R8M5gaF9gCBO/ubYdg8ayApZl8c=
+		IUp5g7a59S9PR/TSWdy6VPlY5/g=
 		</data>
 		<key>Icon@2x.png</key>
 		<data>
-		cLk+eAsGApUiD39p5e0KwvioNH8=
+		Z6BXQwfd9p1NkX4ZknMO44bXB8A=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -294,11 +294,39 @@
 		</data>
 		<key>assets/assets_icon_2x_png</key>
 		<data>
-		9mtiK66+brQpcQu4zV1FNCROBQQ=
+		n2JlKaxTB67WnnvqfNi1azyyHhg=
+		</data>
+		<key>assets/assets_icon_60_2x_png</key>
+		<data>
+		cIS5ukeAK9fhf3Lbhdnb/9Lh76I=
+		</data>
+		<key>assets/assets_icon_60_png</key>
+		<data>
+		COPJdRDnMAHSOz/kmWuUHgTjL7g=
+		</data>
+		<key>assets/assets_icon_72_2x_png</key>
+		<data>
+		hoZc+NQm7uCgMLvd9GxKrUJaD7o=
+		</data>
+		<key>assets/assets_icon_72_png</key>
+		<data>
+		Ms04sy8IvIG+BAl/x89sSE+b5tA=
+		</data>
+		<key>assets/assets_icon_76_2x_png</key>
+		<data>
+		8Vs8CYkbe/5s9McOfVKxk1Tozr8=
+		</data>
+		<key>assets/assets_icon_76_png</key>
+		<data>
+		LE+uhtGe8jDLVFTjDfPRmXMzV2M=
 		</data>
 		<key>assets/assets_icon_png</key>
 		<data>
-		1v3zfbi7h11xrUzjELPschB/VgY=
+		2l2Xi/TPY7NngS0HiJcw02GPQkA=
+		</data>
+		<key>assets/assets_icon_psd</key>
+		<data>
+		/GeH2x3VgJHMGYAQVV9kLLw32KA=
 		</data>
 		<key>assets/assets_joystick2_png</key>
 		<data>
@@ -802,7 +830,7 @@
 		</data>
 		<key>assets/manifest</key>
 		<data>
-		1uvRKZ8ytReIjXkurs6TUIHbp2g=
+		buXXFO0Kr07xcqYM29/DzSSAtyE=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>

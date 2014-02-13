@@ -3,7 +3,6 @@
 -lib openfl-native
 -lib hxlibc
 -lib flixel
--lib flixel-addons
 -cp ../../../../
 -cp ../../../../src
 -D FLX_NO_FOCUS_LOST_SCREEN

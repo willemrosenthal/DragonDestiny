@@ -148,8 +148,22 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/ground_full.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("assets/ground_full2.png", __ASSET__assets_ground_full2_png);
 		type.set ("assets/ground_full2.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("assets/Icon-60.png", __ASSET__assets_icon_60_png);
+		type.set ("assets/Icon-60.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("assets/Icon-60@2x.png", __ASSET__assets_icon_60_2x_png);
+		type.set ("assets/Icon-60@2x.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("assets/Icon-72.png", __ASSET__assets_icon_72_png);
+		type.set ("assets/Icon-72.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("assets/Icon-72@2x.png", __ASSET__assets_icon_72_2x_png);
+		type.set ("assets/Icon-72@2x.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("assets/Icon-76.png", __ASSET__assets_icon_76_png);
+		type.set ("assets/Icon-76.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("assets/Icon-76@2x.png", __ASSET__assets_icon_76_2x_png);
+		type.set ("assets/Icon-76@2x.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("assets/icon.png", __ASSET__assets_icon_png);
 		type.set ("assets/icon.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("assets/icon.psd", __ASSET__assets_icon_psd);
+		type.set ("assets/icon.psd", Reflect.field (AssetType, "binary".toUpperCase ()));
 		className.set ("assets/Icon@2x.png", __ASSET__assets_icon_2x_png);
 		type.set ("assets/Icon@2x.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("assets/joystick.png", __ASSET__assets_joystick_png);
@@ -520,8 +534,22 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/ground_full.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		path.set ("assets/ground_full2.png", "assets_ground_full2_png");
 		type.set ("assets/ground_full2.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		path.set ("assets/Icon-60.png", "assets_icon_60_png");
+		type.set ("assets/Icon-60.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		path.set ("assets/Icon-60@2x.png", "assets_icon_60_2x_png");
+		type.set ("assets/Icon-60@2x.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		path.set ("assets/Icon-72.png", "assets_icon_72_png");
+		type.set ("assets/Icon-72.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		path.set ("assets/Icon-72@2x.png", "assets_icon_72_2x_png");
+		type.set ("assets/Icon-72@2x.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		path.set ("assets/Icon-76.png", "assets_icon_76_png");
+		type.set ("assets/Icon-76.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		path.set ("assets/Icon-76@2x.png", "assets_icon_76_2x_png");
+		type.set ("assets/Icon-76@2x.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		path.set ("assets/icon.png", "assets_icon_png");
 		type.set ("assets/icon.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		path.set ("assets/icon.psd", "assets_icon_psd");
+		type.set ("assets/icon.psd", Reflect.field (AssetType, "binary".toUpperCase ()));
 		path.set ("assets/Icon@2x.png", "assets_icon_2x_png");
 		type.set ("assets/Icon@2x.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		path.set ("assets/joystick.png", "assets_joystick_png");
@@ -1275,7 +1303,14 @@ class __ASSET__assets_ground_png extends flash.display.BitmapData { public funct
 class __ASSET__assets_ground_edges_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_ground_full_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_ground_full2_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__assets_icon_60_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__assets_icon_60_2x_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__assets_icon_72_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__assets_icon_72_2x_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__assets_icon_76_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__assets_icon_76_2x_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_icon_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__assets_icon_psd extends null { }
 class __ASSET__assets_icon_2x_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_joystick_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_joystick2_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
@@ -1406,6 +1441,13 @@ class __ASSET__manifest extends null { }
 
 
 #elseif html5
+
+
+
+
+
+
+
 
 
 
