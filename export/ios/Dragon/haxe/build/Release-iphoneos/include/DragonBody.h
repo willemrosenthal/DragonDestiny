@@ -1,0 +1,47 @@
+#ifndef INCLUDED_DragonBody
+#define INCLUDED_DragonBody
+
+#ifndef HXCPP_H
+#include <hxcpp.h>
+#endif
+
+#include <flixel/FlxSprite.h>
+HX_DECLARE_CLASS0(DragonBody)
+HX_DECLARE_CLASS1(flixel,FlxBasic)
+HX_DECLARE_CLASS1(flixel,FlxObject)
+HX_DECLARE_CLASS1(flixel,FlxSprite)
+HX_DECLARE_CLASS1(flixel,IDestroyable)
+
+
+class HXCPP_CLASS_ATTRIBUTES  DragonBody_obj : public ::flixel::FlxSprite_obj{
+	public:
+		typedef ::flixel::FlxSprite_obj super;
+		typedef DragonBody_obj OBJ_;
+		DragonBody_obj();
+		Void __construct(Float X,Float Y);
+
+	public:
+		static hx::ObjectPtr< DragonBody_obj > __new(Float X,Float Y);
+		static Dynamic __CreateEmpty();
+		static Dynamic __Create(hx::DynamicArray inArgs);
+		~DragonBody_obj();
+
+		HX_DO_RTTI;
+		static void __boot();
+		static void __register();
+		void __Mark(HX_MARK_PARAMS);
+		void __Visit(HX_VISIT_PARAMS);
+		::String __ToString() const { return HX_CSTRING("DragonBody"); }
+
+		virtual Void breakBody( );
+		Dynamic breakBody_dyn();
+
+		virtual Void update( );
+
+		bool broken;
+		int bTimer;
+		int position;
+};
+
+
+#endif /* INCLUDED_DragonBody */ 

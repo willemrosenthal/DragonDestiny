@@ -1,0 +1,586 @@
+TDragon
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/Dragon.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Info.plist Dragon/Dragon-Info.plist
+cCpResource Dragon/assets build/Release-iphoneos/Dragon.app/assets
+cCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon.png Dragon/Icon.png
+cCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon@2x.png Dragon/Icon@2x.png
+cCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-72.png Dragon/Icon-72.png
+cCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-72@2x.png Dragon/Icon-72@2x.png
+cCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-60.png Dragon/Icon-60.png
+cCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-76.png Dragon/Icon-76.png
+cCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-60@2x.png Dragon/Icon-60@2x.png
+cCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-76@2x.png Dragon/Icon-76@2x.png
+cCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default.png Dragon/Default.png
+cCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default@2x.png Dragon/Default@2x.png
+cCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Portrait.png Dragon/Default-Portrait.png
+cCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Portrait@2x.png Dragon/Default-Portrait@2x.png
+cCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Landscape.png Dragon/Default-Landscape.png
+cCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Landscape@2x.png Dragon/Default-Landscape@2x.png
+cCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-568h@2x.png Dragon/Default-568h@2x.png
+cProcessPCH++ /var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dragon-Prefix-bssfzuilvthfebdkyyzfusxmtfbj/Dragon-Prefix.pch.pth Dragon/Dragon-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Dragon.build/Release-iphoneos/Dragon.build/Objects-normal/armv7/Main.o /Users/willem/Projects/dragon/export/ios/Dragon/Classes/Main.mm normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Dragon normal armv7
+cGenerateDSYMFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app.dSYM /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Dragon
+cProcessProductPackaging "/Users/willem/Library/MobileDevice/Provisioning Profiles/5F9F56BD-F90F-4A8E-92E1-61E03DB18DC9.mobileprovision" /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/willem/Library/MobileDevice/Provisioning Profiles/5F9F56BD-F90F-4A8E-92E1-61E03DB18DC9.mobileprovision" /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/embedded.mobileprovision
+cTouch /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Dragon.xcent
+cCodeSign /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app
+cValidate /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000050ED385D0000000000000110
+t1357723741
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c0000000052069D7300000000000001A7
+t1376165235
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c0000000052069D7300000000000001E5
+t1376165235
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000052069D74000000000036CDF0
+t1376165236
+s3591664
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000052069D7400000000006B1F40
+t1376165236
+s7020352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000052069D7400000000000FE270
+t1376165236
+s1041008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000052069D740000000000322700
+t1376165236
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000052069D75000000000062AD10
+t1376165237
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000052069D7400000000000015F7
+t1376165236
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c0000000052069D75000000000005C570
+t1376165237
+s378224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000052069D750000000000024190
+t1376165237
+s147856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000052069D7500000000003596B0
+t1376165237
+s3511984
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000052069D750000000000000E8D
+t1376165237
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000052069D7700000000011BCDF0
+t1376165239
+s18599408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/Availability.h
+c0000000052069D780000000000001B73
+t1376165240
+s7027
+
+N/Users/willem/Library/MobileDevice/Provisioning Profiles/5F9F56BD-F90F-4A8E-92E1-61E03DB18DC9.mobileprovision
+c0000000052FBF6BA0000000000001DBA
+t1392244410
+s7610
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Classes/Main.mm
+c0000000052FC85990000000000000384
+t1392280985
+s900
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Default-568h@2x.png
+c0000000052FC85910000000000001188
+t1392280977
+s4488
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Default-Landscape.png
+c0000000052FC85920000000000000FB6
+t1392280978
+s4022
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Default-Landscape@2x.png
+c0000000052FC85920000000000003196
+t1392280978
+s12694
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Default-Portrait.png
+c0000000052FC859200000000000011D6
+t1392280978
+s4566
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Default-Portrait@2x.png
+c0000000052FC859200000000000035F2
+t1392280978
+s13810
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Default.png
+c0000000052FC859100000000000005BC
+t1392280977
+s1468
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Default@2x.png
+c0000000052FC85910000000000000EDE
+t1392280977
+s3806
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Dragon-Prefix.pch
+c0000000052FC8592000000000000013B
+t1392280978
+s315
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Icon-60.png
+c0000000052FC85910000000000000558
+t1392280977
+s1368
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Icon-60@2x.png
+c0000000052FC8591000000000000096F
+t1392280977
+s2415
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Icon-72.png
+c0000000052FC85910000000000000609
+t1392280977
+s1545
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Icon-72@2x.png
+c0000000052FC85910000000000000B1B
+t1392280977
+s2843
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Icon-76.png
+c0000000052FC85910000000000000638
+t1392280977
+s1592
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Icon-76@2x.png
+c0000000052FC85910000000000000B47
+t1392280977
+s2887
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Icon.png
+c0000000052FC859100000000000004C1
+t1392280977
+s1217
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/Icon@2x.png
+c0000000052FC859100000000000008CA
+t1392280977
+s2250
+
+N/Users/willem/Projects/dragon/export/ios/Dragon/assets
+c0000000052FC80ED00000000000018B4
+t1392279789
+s6324
+
+N/Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Dragon.xcent
+t1392280597
+s408
+
+N/Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Objects-normal/armv7/Dragon.LinkFileList
+c0000000052FC3AF30000000000000076
+t1392261875
+s118
+
+N/Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Objects-normal/armv7/Main.o
+t1392280596
+s3200
+
+N/Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app
+t1392280597
+s816
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app.dSYM
+t1392280597
+s102
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-568h@2x.png
+t1392280596
+s4555
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Landscape.png
+t1392280596
+s4371
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Landscape@2x.png
+t1392280596
+s16101
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Portrait.png
+t1392280596
+s4629
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Portrait@2x.png
+t1392280596
+s17061
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default.png
+t1392280596
+s1370
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default@2x.png
+t1392280596
+s3874
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Dragon
+t1392280597
+s5172480
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-60.png
+t1392280596
+s995
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-60@2x.png
+t1392280596
+s1711
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-72.png
+t1392280596
+s1206
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-72@2x.png
+t1392280596
+s1993
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-76.png
+t1392280596
+s1234
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-76@2x.png
+t1392280596
+s2055
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon.png
+t1392280596
+s932
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon@2x.png
+t1392280596
+s1667
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Info.plist
+t1392280595
+s1757
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/PkgInfo
+t1392280595
+s8
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/ResourceRules.plist
+t1392261875
+s485
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/assets
+t1392279808
+s6324
+
+N/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/embedded.mobileprovision
+t1392261876
+s7610
+
+N/var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dragon-Prefix-bssfzuilvthfebdkyyzfusxmtfbj/Dragon-Prefix.pch.pth
+t1392280596
+s113544
+
+NDragon/Dragon-Info.plist
+c0000000052FC85920000000000000A65
+t1392280978
+s2661
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies58fe501fbdacb841^de21511fbdacb841^---0#1#0#--18"Check dependencies36"D105181D-92A1-4887-88A6-722C4B61621B-
+
+CCodeSign /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app
+s413973793.145791
+e413973793.351780
+r1
+xCodeSign
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"CodeSign build/Release-iphoneos/Dragon.app26ac2521bdacb841^ed0d5a21bdacb841^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/0000000000000000^879"CodeSign build/Release-iphoneos/Dragon.app    cd /Users/willem/Projects/dragon/export/ios    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/codesign --force --sign 76ac79185e016b7c18c09c4e97445dac425db62f --resource-rules=/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/ResourceRules.plist --entitlements /Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Dragon.xcent /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app36"68050533-6E36-4972-9C5D-8D6CE64BA4E2-
+
+CCompileC build/Dragon.build/Release-iphoneos/Dragon.build/Objects-normal/armv7/Main.o /Users/willem/Projects/dragon/export/ios/Dragon/Classes/Main.mm normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413973792.251474
+e413973792.272167
+r1
+xCompileC
+xbuild/Dragon.build/Release-iphoneos/Dragon.build/Objects-normal/armv7/Main.o
+x/Users/willem/Projects/dragon/export/ios/Dragon/Classes/Main.mm
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/willem/Projects/dragon/export/ios/Dragon/Classes/Main.mmb4754020bdacb841^36ac4520bdacb841^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Classes/Main.mm0000000000000000^3297"CompileC build/Dragon.build/Release-iphoneos/Dragon.build/Objects-normal/armv7/Main.o Dragon/Classes/Main.mm normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/willem/Projects/dragon/export/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -std=gnu++11 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5 -iquote /Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Dragon-generated-files.hmap -I/Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Dragon-own-target-headers.hmap -I/Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Dragon-all-target-headers.hmap -iquote /Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Dragon-project-headers.hmap -I/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/DerivedSources/armv7 -I/Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/DerivedSources -F/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dragon-Prefix-bssfzuilvthfebdkyyzfusxmtfbj/Dragon-Prefix.pch -MMD -MT dependencies -MF /Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Objects-normal/armv7/Main.d --serialize-diagnostics /Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Objects-normal/armv7/Main.dia -c /Users/willem/Projects/dragon/export/ios/Dragon/Classes/Main.mm -o /Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Objects-normal/armv7/Main.o36"BB6017F7-E235-441A-8180-618A16462F12-
+
+CCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-568h@2x.png Dragon/Default-568h@2x.png
+s413973791.376349
+e413973791.487922
+r1
+xCopyPNGFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-568h@2x.png
+xDragon/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/Dragon.app/Default-568h@2x.png Dragon/Default-568h@2x.png7b6b601fbdacb841^21e87c1fbdacb841^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Default-568h@2x.png0000000000000000^695"CopyPNGFile "build/Release-iphoneos/Dragon.app/Default-568h@2x.png" "Dragon/Default-568h@2x.png"    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/willem/Projects/dragon/export/ios/Dragon/Default-568h@2x.png" "/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-568h@2x.png"36"E16F7BF6-C0FE-4932-A30F-B4260022F7C1-
+
+CCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Landscape.png Dragon/Default-Landscape.png
+s413973791.370839
+e413973791.477456
+r1
+xCopyPNGFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Landscape.png
+xDragon/Default-Landscape.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile build/Release-iphoneos/Dragon.app/Default-Landscape.png Dragon/Default-Landscape.pnge10b5f1fbdacb841^d23a7a1fbdacb841^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Default-Landscape.png0000000000000000^695"CopyPNGFile build/Release-iphoneos/Dragon.app/Default-Landscape.png Dragon/Default-Landscape.png    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/willem/Projects/dragon/export/ios/Dragon/Default-Landscape.png /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Landscape.png36"8B0EEDFE-C0FD-4151-8E97-14F3C7D348EA-
+
+CCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Landscape@2x.png Dragon/Default-Landscape@2x.png
+s413973791.375839
+e413973792.221859
+r1
+xCopyPNGFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Landscape@2x.png
+xDragon/Default-Landscape@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile build/Release-iphoneos/Dragon.app/Default-Landscape@2x.png Dragon/Default-Landscape@2x.png1e4e601fbdacb841^e2cb3820bdacb841^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Default-Landscape@2x.png0000000000000000^715"CopyPNGFile "build/Release-iphoneos/Dragon.app/Default-Landscape@2x.png" "Dragon/Default-Landscape@2x.png"    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/willem/Projects/dragon/export/ios/Dragon/Default-Landscape@2x.png" "/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Landscape@2x.png"36"39F34040-6DFB-48DB-B19D-2FB0E60C0811-
+
+CCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Portrait.png Dragon/Default-Portrait.png
+s413973791.368679
+e413973791.472402
+r1
+xCopyPNGFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Portrait.png
+xDragon/Default-Portrait.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Release-iphoneos/Dragon.app/Default-Portrait.png Dragon/Default-Portrait.png747a5e1fbdacb841^83f8781fbdacb841^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Default-Portrait.png0000000000000000^691"CopyPNGFile build/Release-iphoneos/Dragon.app/Default-Portrait.png Dragon/Default-Portrait.png    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/willem/Projects/dragon/export/ios/Dragon/Default-Portrait.png /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Portrait.png36"C1CADD40-0098-4E15-9E15-1B836DA5ADC0-
+
+CCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Portrait@2x.png Dragon/Default-Portrait@2x.png
+s413973791.370782
+e413973792.197390
+r1
+xCopyPNGFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Portrait@2x.png
+xDragon/Default-Portrait@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile build/Release-iphoneos/Dragon.app/Default-Portrait@2x.png Dragon/Default-Portrait@2x.png6a175f1fbdacb841^a0873220bdacb841^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Default-Portrait@2x.png0000000000000000^711"CopyPNGFile "build/Release-iphoneos/Dragon.app/Default-Portrait@2x.png" "Dragon/Default-Portrait@2x.png"    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/willem/Projects/dragon/export/ios/Dragon/Default-Portrait@2x.png" "/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default-Portrait@2x.png"36"C88FD608-CBAC-4D68-9877-7DED9E676A8F-
+
+CCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default.png Dragon/Default.png
+s413973791.363802
+e413973791.415246
+r1
+xCopyPNGFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default.png
+xDragon/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CopyPNGFile build/Release-iphoneos/Dragon.app/Default.png Dragon/Default.png4c375d1fbdacb841^685e6a1fbdacb841^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Default.png0000000000000000^655"CopyPNGFile build/Release-iphoneos/Dragon.app/Default.png Dragon/Default.png    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/willem/Projects/dragon/export/ios/Dragon/Default.png /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default.png36"6CA075CB-2354-4893-94E1-B7443A6C89AF-
+
+CCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default@2x.png Dragon/Default@2x.png
+s413973791.364261
+e413973791.450115
+r1
+xCopyPNGFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default@2x.png
+xDragon/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile build/Release-iphoneos/Dragon.app/Default@2x.png Dragon/Default@2x.pngfc505d1fbdacb841^8cf7731fbdacb841^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Default@2x.png0000000000000000^675"CopyPNGFile "build/Release-iphoneos/Dragon.app/Default@2x.png" "Dragon/Default@2x.png"    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/willem/Projects/dragon/export/ios/Dragon/Default@2x.png" "/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Default@2x.png"36"001FD9C1-B590-4CA2-908D-9EC0A006B5CE-
+
+CCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-60.png Dragon/Icon-60.png
+s413973791.333832
+e413973791.363284
+r1
+xCopyPNGFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-60.png
+xDragon/Icon-60.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CopyPNGFile build/Release-iphoneos/Dragon.app/Icon-60.png Dragon/Icon-60.png0589551fbdacb841^cd065d1fbdacb841^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Icon-60.png0000000000000000^655"CopyPNGFile build/Release-iphoneos/Dragon.app/Icon-60.png Dragon/Icon-60.png    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/willem/Projects/dragon/export/ios/Dragon/Icon-60.png /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-60.png36"B8E6B7A2-FDF0-4463-A8F6-F48460C24517-
+
+CCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-60@2x.png Dragon/Icon-60@2x.png
+s413973791.333855
+e413973791.374209
+r1
+xCopyPNGFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-60@2x.png
+xDragon/Icon-60@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile build/Release-iphoneos/Dragon.app/Icon-60@2x.png Dragon/Icon-60@2x.png2f8b551fbdacb841^d5cb5f1fbdacb841^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Icon-60@2x.png0000000000000000^675"CopyPNGFile "build/Release-iphoneos/Dragon.app/Icon-60@2x.png" "Dragon/Icon-60@2x.png"    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/willem/Projects/dragon/export/ios/Dragon/Icon-60@2x.png" "/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-60@2x.png"36"4882D6A0-4FC8-4B25-9BF2-5893B69C3FC7-
+
+CCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-72.png Dragon/Icon-72.png
+s413973791.333820
+e413973791.362214
+r1
+xCopyPNGFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-72.png
+xDragon/Icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CopyPNGFile build/Release-iphoneos/Dragon.app/Icon-72.png Dragon/Icon-72.png6e88551fbdacb841^43c55c1fbdacb841^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Icon-72.png0000000000000000^655"CopyPNGFile build/Release-iphoneos/Dragon.app/Icon-72.png Dragon/Icon-72.png    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/willem/Projects/dragon/export/ios/Dragon/Icon-72.png /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-72.png36"EB31330A-F9D7-4FFC-AA84-CADC60B62978-
+
+CCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-72@2x.png Dragon/Icon-72@2x.png
+s413973791.333824
+e413973791.370107
+r1
+xCopyPNGFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-72@2x.png
+xDragon/Icon-72@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile build/Release-iphoneos/Dragon.app/Icon-72@2x.png Dragon/Icon-72@2x.png5989551fbdacb841^22c35e1fbdacb841^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Icon-72@2x.png0000000000000000^675"CopyPNGFile "build/Release-iphoneos/Dragon.app/Icon-72@2x.png" "Dragon/Icon-72@2x.png"    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/willem/Projects/dragon/export/ios/Dragon/Icon-72@2x.png" "/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-72@2x.png"36"97A77007-5D9E-471C-A58E-64A1BE5D45D0-
+
+CCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-76.png Dragon/Icon-76.png
+s413973791.333844
+e413973791.366567
+r1
+xCopyPNGFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-76.png
+xDragon/Icon-76.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CopyPNGFile build/Release-iphoneos/Dragon.app/Icon-76.png Dragon/Icon-76.png878a551fbdacb841^d7dc5d1fbdacb841^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Icon-76.png0000000000000000^655"CopyPNGFile build/Release-iphoneos/Dragon.app/Icon-76.png Dragon/Icon-76.png    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/willem/Projects/dragon/export/ios/Dragon/Icon-76.png /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-76.png36"9B43A44F-1D66-419E-94CD-C1227EB2E285-
+
+CCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-76@2x.png Dragon/Icon-76@2x.png
+s413973791.334983
+e413973791.375170
+r1
+xCopyPNGFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-76@2x.png
+xDragon/Icon-76@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile build/Release-iphoneos/Dragon.app/Icon-76@2x.png Dragon/Icon-76@2x.png4fcd551fbdacb841^0612601fbdacb841^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Icon-76@2x.png0000000000000000^675"CopyPNGFile "build/Release-iphoneos/Dragon.app/Icon-76@2x.png" "Dragon/Icon-76@2x.png"    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/willem/Projects/dragon/export/ios/Dragon/Icon-76@2x.png" "/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon-76@2x.png"36"79731C2F-FC8F-4F2B-A8FA-D9ECAD9917A9-
+
+CCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon.png Dragon/Icon.png
+s413973791.333805
+e413973791.369405
+r1
+xCopyPNGFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon.png
+xDragon/Icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"CopyPNGFile build/Release-iphoneos/Dragon.app/Icon.png Dragon/Icon.png118a551fbdacb841^24985e1fbdacb841^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Icon.png0000000000000000^643"CopyPNGFile build/Release-iphoneos/Dragon.app/Icon.png Dragon/Icon.png    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/willem/Projects/dragon/export/ios/Dragon/Icon.png /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon.png36"2B454E6A-C41A-415C-9384-B50D9686FE4E-
+
+CCopyPNGFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon@2x.png Dragon/Icon@2x.png
+s413973791.333810
+e413973791.374526
+r1
+xCopyPNGFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon@2x.png
+xDragon/Icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CopyPNGFile build/Release-iphoneos/Dragon.app/Icon@2x.png Dragon/Icon@2x.png988a551fbdacb841^0ce65f1fbdacb841^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Icon@2x.png0000000000000000^663"CopyPNGFile "build/Release-iphoneos/Dragon.app/Icon@2x.png" "Dragon/Icon@2x.png"    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/willem/Projects/dragon/export/ios/Dragon/Icon@2x.png" "/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Icon@2x.png"36"CA874504-9ED2-4E92-8B89-B3D372AD037D-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/Dragon.app/ResourceRules.plist
+s413954675.541677
+e413954675.546313
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/Dragon.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Release-iphoneos/Dragon.app/ResourceRules.plist71c88a7372acb841^2bdb8b7372acb841^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/ResourceRules.plist000000000080d041^939"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/Dragon.app/ResourceRules.plist    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app36"C99547BA-0445-450C-A595-1508526C2F97-
+
+CCpResource Dragon/assets build/Release-iphoneos/Dragon.app/assets
+s413972608.334058
+e413972608.539849
+r1
+xCpResource
+xDragon/assets
+xbuild/Release-iphoneos/Dragon.app/assets
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/Release-iphoneos/Dragon.app/assetsa19f5580b8acb841^ce338a80b8acb841^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/assets/0000000000000000^751"CpResource Dragon/assets build/Release-iphoneos/Dragon.app/assets    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/willem/Projects/dragon/export/ios/Dragon/assets /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app36"73DDE1E0-B4E9-4348-B89B-05CC33B6E4AB-
+
+CGenerateDSYMFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app.dSYM /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Dragon
+s413973792.986484
+e413973793.099011
+r1
+xGenerateDSYMFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app.dSYM
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Dragon
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Generate /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app.dSYMb2a0fc20bdacb841^64581921bdacb841^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app.dSYM/0000000000000000^679"GenerateDSYMFile build/Release-iphoneos/Dragon.app.dSYM build/Release-iphoneos/Dragon.app/Dragon    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Dragon -o /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app.dSYM36"8801611C-1B94-4F8C-AFFA-2F315E9E64B3-
+
+CLd /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Dragon normal armv7
+s413973792.278957
+e413973792.979745
+r1
+xLd
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Dragon
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Link /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Dragon9a7c4720bdacb841^1cd0fa20bdacb841^---0#0#0#--1396"Ld build/Release-iphoneos/Dragon.app/Dragon normal armv7    cd /Users/willem/Projects/dragon/export/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos -L/Users/willem/Projects/dragon/export/ios/Dragon/lib/armv7 -F/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos -filelist /Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Objects-normal/armv7/Dragon.LinkFileList -dead_strip -lstd -lregexp -lzlib -lcurl_ssl -lpng -ljpeg -lfreetype -logg -lvorbis -llime -lApplicationMain -stdlib=libc++ -miphoneos-version-min=5 -framework UIKit -framework OpenAL -framework OpenGLES -framework QuartzCore -framework CoreAudio -framework CoreGraphics -framework AudioToolbox -framework AVFoundation -framework Foundation -o /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Dragon36"46BA6B9C-B51A-4ABB-965C-BD57DD1375E4-
+
+CProcessInfoPlistFile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Info.plist Dragon/Dragon-Info.plist
+s413973791.321627
+e413973791.324751
+r1
+xProcessInfoPlistFile
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Info.plist
+xDragon/Dragon-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Process Dragon/Dragon-Info.plistff75521fbdacb841^7d22531fbdacb841^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Dragon-Info.plist0000000000000000^815"ProcessInfoPlistFile build/Release-iphoneos/Dragon.app/Info.plist Dragon/Dragon-Info.plist    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Dragon/Dragon-Info.plist -genpkginfo /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/ResourceRules.plist -o /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Info.plist36"E39E583E-C3E0-4A98-9A12-3F2E0DA79271-
+
+CProcessPCH++ /var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dragon-Prefix-bssfzuilvthfebdkyyzfusxmtfbj/Dragon-Prefix.pch.pth Dragon/Dragon-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413973792.230193
+e413973792.244706
+r1
+xProcessPCH++
+x/var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dragon-Prefix-bssfzuilvthfebdkyyzfusxmtfbj/Dragon-Prefix.pch.pth
+xDragon/Dragon-Prefix.pch
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Dragon/Dragon-Prefix.pchb4023b20bdacb841^98a43e20bdacb841^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/willem/Projects/dragon/export/ios/Dragon/Dragon-Prefix.pch0000000000000000^3349"ProcessPCH++ /var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dragon-Prefix-bssfzuilvthfebdkyyzfusxmtfbj/Dragon-Prefix.pch.pth Dragon/Dragon-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/willem/Projects/dragon/export/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch armv7 -fmessage-length=0 -std=gnu++11 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5 -iquote /Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Dragon-generated-files.hmap -I/Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Dragon-own-target-headers.hmap -I/Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Dragon-all-target-headers.hmap -iquote /Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Dragon-project-headers.hmap -I/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/DerivedSources/armv7 -I/Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/DerivedSources -F/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dragon-Prefix-bssfzuilvthfebdkyyzfusxmtfbj/Dragon-Prefix.pch.dia -c /Users/willem/Projects/dragon/export/ios/Dragon/Dragon-Prefix.pch -o /var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dragon-Prefix-bssfzuilvthfebdkyyzfusxmtfbj/Dragon-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dragon-Prefix-bssfzuilvthfebdkyyzfusxmtfbj/Dragon-Prefix.pch.d36"C21AC7CB-28F0-4652-8D24-4EBE64F6D8B1-
+
+CProcessProductPackaging "/Users/willem/Library/MobileDevice/Provisioning Profiles/5F9F56BD-F90F-4A8E-92E1-61E03DB18DC9.mobileprovision" /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/embedded.mobileprovision
+s413954676.345445
+e413954676.348124
+r1
+xProcessProductPackaging
+x/Users/willem/Library/MobileDevice/Provisioning Profiles/5F9F56BD-F90F-4A8E-92E1-61E03DB18DC9.mobileprovision
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection194"ProcessProductPackaging "/Users/willem/Library/MobileDevice/Provisioning Profiles/5F9F56BD-F90F-4A8E-92E1-61E03DB18DC9.mobileprovision" build/Release-iphoneos/Dragon.app/embedded.mobileprovisionfd87587472acb841^971e597472acb841^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/embedded.mobileprovision0000000000000000^763"ProcessProductPackaging "/Users/willem/Library/MobileDevice/Provisioning Profiles/5F9F56BD-F90F-4A8E-92E1-61E03DB18DC9.mobileprovision" build/Release-iphoneos/Dragon.app/embedded.mobileprovision    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-productPackagingUtility "/Users/willem/Library/MobileDevice/Provisioning Profiles/5F9F56BD-F90F-4A8E-92E1-61E03DB18DC9.mobileprovision" -o /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/embedded.mobileprovision36"8EC27DCF-D30D-44D4-A013-ABC8556C6841-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Dragon.xcent
+s413973793.135499
+e413973793.137682
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Dragon.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection206"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/Dragon.build/Release-iphoneos/Dragon.build/Dragon.xcentfdbf2221bdacb841^9a3e2321bdacb841^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Dragon.xcent0000000000000000^813"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/Dragon.build/Release-iphoneos/Dragon.build/Dragon.xcent    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/willem/Projects/dragon/export/ios/build/Dragon.build/Release-iphoneos/Dragon.build/Dragon.xcent36"6627FFCB-33AB-4F42-B461-869419C1E119-
+
+CTouch /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app
+s413973793.122897
+e413973793.127409
+r1
+xTouch
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Touch /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.appe4821f21bdacb841^bf9d2021bdacb841^---0#0#0#--454"Touch build/Release-iphoneos/Dragon.app    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app36"D99DABE2-A261-421A-A95B-D9F74A182AB0-
+
+CValidate /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app
+s413973793.359713
+e413973794.193694
+r1
+xValidate
+x/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app
+owarning: Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)
+oExecutable=/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Dragon
+ocodesign_wrapper-4.1: using Apple CA for profile evaluation
+o/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app: valid on disk
+o/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app: satisfies its Designated Requirement
+otest-requirement: code failed to satisfy specified code requirement(s)
+ocodesign_wrapper-4.1: failed to execute codesign(1)
+o - (null)
+o
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Validate build/Release-iphoneos/Dragon.app7d255c21bdacb841^ee953122bdacb841^-664"warning: Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)Executable=/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/Dragoncodesign_wrapper-4.1: using Apple CA for profile evaluation/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app: valid on disk/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app: satisfies its Designated Requirementtest-requirement: code failed to satisfy specified code requirement(s)codesign_wrapper-4.1: failed to execute codesign(1) - (null1(21%IDEActivityLogMessage2@175" Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)165"Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate.413973794#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--0#0#0#-19%DVTDocumentLocation4@91"file://localhost/Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app/0000000000000000^598"Validate build/Release-iphoneos/Dragon.app    cd /Users/willem/Projects/dragon/export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/willem/Projects/dragon/export/ios/build/Release-iphoneos/Dragon.app36"FD86DE14-9044-4160-80E1-80E3387123B7-
+

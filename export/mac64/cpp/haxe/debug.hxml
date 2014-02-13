@@ -1,0 +1,20 @@
+-main ApplicationMain 
+-lib openfl
+-lib openfl-native
+-lib hxlibc
+-lib flixel
+-cp src
+-D FLX_NO_FOCUS_LOST_SCREEN
+-D tools=1.2.8
+-D FLX_NO_DEBUG
+-D lime_native
+-D no-compilation
+-D FLX_NO_SOUND_TRAY
+-D mac
+-D desktop
+-cpp export/mac64/cpp/obj/
+-cp export/mac64/cpp/haxe
+--macro allowPackage("flash")
+--macro keep("Main")
+-debug
+-D no-compilation
