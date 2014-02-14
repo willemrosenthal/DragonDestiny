@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
-    <app title="Dragon" file="Dragon" main="Main" version="0.0.1" company="HaxeFlixel" />
+
+
+    package="com.rgb"
+    <meta title="Flappy Dragon" description="A Flappy Jam game made in support of the Flappy Bird creator." package="flappydragon" version="0.0.1" company="Willem Rosenthal" />
+    <app title="Flappy Dragon" file="Flappy Dragon" main="Main" version="0.0.1" company="Willem Rosenthal" />
 
     <window width="1136" height="640" fps="60" orientation="landscape" resizable="true" if="web" />
     <window width="1136" height="640" fps="60" orientation="landscape" fullscreen="true" hardware="true" vsync="false" borderless="true" unless="web" />
@@ -66,6 +70,13 @@
     <!--<haxedef name="FLX_NO_KEYBOARD" if="mobile" />-->
     <!--<haxedef name="FLX_NO_TOUCH" if="desktop" />-->
     <!--<haxedef name="FLX_NO_GAMEPAD" />-->
+
+
+
+    <launchImage path="assets/launchImages/Default-Portrait~ipad.png" width="768" height="1024" />
+    <launchImage path="assets/launchImages/Default-Portrait@2x~ipad.png" width="1536" height="2048" />
+    <launchImage path="assets/launchImages/Default-Landscape~ipad.png" width="1024" height="768" />
+    <launchImage path="assets/launchImages/Default-Landscape@2x~ipad.png" width="2048" height="1536" />
 
     <!--Disable the Flixel core sound tray-->
     <haxedef name="FLX_NO_SOUND_TRAY" />

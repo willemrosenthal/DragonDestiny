@@ -21,6 +21,8 @@ class Wall extends FlxSprite
 		top = Top;
 
 		loadGraphic("assets/walls.png", true, false, 32,160);
+		//loadGraphic("assets/walls_clear.png", true, false, 32,160);
+		//loadGraphic("assets/walls_solid.png", true, false, 32,160);
 		animation.add("puff", [0,1,2,2,1,0],12);
 		animation.play("puff");
 		height -= 10;
