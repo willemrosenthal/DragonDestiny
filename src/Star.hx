@@ -10,6 +10,7 @@ class Star extends WeatherParticle
     var speedArray:Array<Float>;
     var alphaArray:Array<Float>;
     var scaleArray:Array<Float>;
+    var colorArray:Array<Int>;
     var speed:Float = 0;
 
 	public function new(X:Float, Y:Float)
@@ -21,12 +22,15 @@ class Star extends WeatherParticle
 		moves = true;
         stickToScreen = true;
 
-        speedArray = [-200,-125,-50];
+        //speedArray = [-200,-125,-50];
+        speedArray = [-20,-13,-5];
         alphaArray = [1,0.7,0.33,0.5,0.2];
-        scaleArray = [1,2];
+        colorArray = [0xb06800,0x780038,0x2c065c];
+        scaleArray = [1,2,3];
 
         var type:Int = Std.int(Math.round(Math.random() * (speedArray.length - 1)));
         speed = speedArray[type];
+        color = colorArray[type];
         alpha = alphaArray[type];
 
         type = Std.int(Math.round(Math.random() * (scaleArray.length - 1)));

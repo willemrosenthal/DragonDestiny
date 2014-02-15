@@ -47,6 +47,12 @@ class PlayState extends FlxState
 	private var two:FlxGroup;
 	private var three:FlxGroup;
 
+    private var csa:Array<Float>; // cloud spacing array
+    private var cspeed:Array<Float>; // cloud speed array
+	private var cloudsFG:Parallax;
+	private var cloudsMG:Parallax;
+	private var cloudsBG:Parallax;
+
 	private var walls:FlxGroup;
 	private var blur:FlxGroup;
 	private var body:FlxGroup;
@@ -108,7 +114,7 @@ class PlayState extends FlxState
 
 	    space = new FlxGroup();
 	    add(space);
-	    //addStars(30);
+	    addStars(45);
 
         if (cloudsOn)
         {
@@ -121,6 +127,24 @@ class PlayState extends FlxState
             addClouds(totalClouds);
         }
 
+        //csa = [FlxG.height * 0.62,FlxG.height * 0.7,FlxG.height * 0.84];
+        csa = [FlxG.height * 0.6,FlxG.height * 0.65,FlxG.height * 0.75];
+
+        //cspeed = [-25, -50, -75];
+        cspeed = [-25, -75, -125];
+
+        cloudsBG = new Parallax(csa[0],"assets/clouds/cloud_back.png",156,80);
+        cloudsBG.speed = cspeed[0];
+        add(cloudsBG);
+
+        cloudsMG = new Parallax(csa[1],"assets/clouds/cloud_mid.png",134,70);
+        cloudsMG.speed = cspeed[1];
+        add(cloudsMG);
+
+        cloudsFG = new Parallax(csa[2],"assets/clouds/cloud_front.png",132,80);
+        cloudsFG.speed = cspeed[2];
+        add(cloudsFG);
+
 	    blur = new FlxGroup();
 	    add(blur);
 	    Global.blur = blur;
@@ -132,7 +156,7 @@ class PlayState extends FlxState
 	    Global.game = this;
 
 
-        dragon = new DragonHead(Global.dragonHeadX,100, numBodies, dbLast);
+        dragon = new DragonHead(Global.dragonHeadX,80, numBodies, dbLast);
         add(dragon);
 
 	    dragonBodies = [];
@@ -146,9 +170,16 @@ class PlayState extends FlxState
 
 	    wallsTop = [];
 	    wallsBottom = [];
-	    addWalls(numWalls);
+	    addWalls();
 
 	    setupUI();
+
+	    // speed up for testing
+	    /*
+	    for (i in 0...35){
+	        speedUp();
+	    }
+	    */
 	}
 
 
@@ -212,11 +243,13 @@ class PlayState extends FlxState
 
 	}
 
-	private function addWalls(num:Int = 3):Void
+	private function addWalls():Void
 	{
 	    last = FlxG.height * 0.5;
 
-        for (i in 0...num)
+        numWalls = Math.ceil(FlxG.width / wallSpacing);
+
+        for (i in 0...numWalls)
         {
             wallsTop.push(new Wall(FlxG.width + fp + (i * wallSpacing), (FlxG.height * 0.5) - spaceSize - 160));
             wallsBottom.push(new Wall(FlxG.width + fp + (i * wallSpacing), (FlxG.height * 0.5) + spaceSize, false));
@@ -251,6 +284,24 @@ class PlayState extends FlxState
                 FlxG.switchState(new PlayState());
 		}
 
+        if (dragon.y <= FlxG.height)
+		    cloudYmove();
+
+		//dumbEffects();
+	}
+
+    var hdiff:Float = 0;
+	private function cloudYmove():Void
+	{
+	    hdiff = (FlxG.height - dragon.y)/FlxG.height;
+
+	    cloudsFG.yPos = cloudsFG.initialY + (20 * hdiff);
+	    cloudsMG.yPos = cloudsMG.initialY - (10 * hdiff);
+	    cloudsBG.yPos = cloudsBG.initialY - (25 * hdiff);
+	}
+
+	private function dumbEffects():Void
+	{
         if (lightning)
         {
             lightningTimer --;
@@ -312,10 +363,25 @@ class PlayState extends FlxState
     }
 
 
+    var oldSpeedWay:Bool = false;
+
     private function speedUp():Void {
+        if (Global.total > 40)
+            return;
+
         Global.speed += speedUpRate;
-        dbLast += Std.int((Global.dbLast/(Global.initialSpeed * 0.75)) * speedUpRate);
-        dragon.speed = 4 + dbLast;
+
+
+        if (!oldSpeedWay)
+        {
+            dragon.speed += .15;
+            dragon.maxSpeed += 1;
+        }
+        else // old
+        {
+            dbLast += Std.int((Global.dbLast/(Global.initialSpeed * 0.75)) * speedUpRate);
+            dragon.speed = 4 + dbLast;
+        }
 	}
 
 

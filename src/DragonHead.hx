@@ -29,7 +29,7 @@ class DragonHead extends FlxSprite
 	{
 		super(X, Y);
 
-		lastY = y;
+		lastY = FlxG.height * 0.5;
 
 		Global.posY = new Array();
 
