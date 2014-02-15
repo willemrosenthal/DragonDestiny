@@ -73,6 +73,9 @@
     <!--<haxedef name="FLX_NO_GAMEPAD" />-->
 
 
+    <launchImage path="assets/launchImages/Default-568h@2x.png" width="640" height="1136" />
+    <launchImage path="assets/launchImages/Default.png" width="320" height="480" />
+    <launchImage path="assets/launchImages/Default@2x.png" width="640" height="960" />
 
     <launchImage path="assets/launchImages/Default-Portrait~ipad.png" width="768" height="1024" />
     <launchImage path="assets/launchImages/Default-Portrait@2x~ipad.png" width="1536" height="2048" />

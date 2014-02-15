@@ -56,6 +56,7 @@ class PlayState extends FlxState
 	private var walls:FlxGroup;
 	private var blur:FlxGroup;
 	private var body:FlxGroup;
+	private var head:FlxGroup;
 
 	private var numBodies:Int = 16;
     private var dbDistance:Float = 8;
@@ -111,10 +112,12 @@ class PlayState extends FlxState
     }
 
 	override public function create():Void {
+		//FlxG.cameras.bgColor = 0x11000000;
+	    //Global.game = this;
 
 	    space = new FlxGroup();
 	    add(space);
-	    addStars(Math.round(Math.random() * 30 + 15));
+	    addStars(Math.round(Math.random() * 45 + 20));
 
         if (cloudsOn)
         {
@@ -132,7 +135,7 @@ class PlayState extends FlxState
 
 
         //cspeed = [-25, -50, -75];
-        cspeed = [-30, -75, -125];
+        cspeed = [-30, -75, -105];
 
         cloudsBG = new Parallax(csa[0],"assets/clouds/cloud_back.png",156,100);
         cloudsBG.speed = cspeed[0];
@@ -146,22 +149,11 @@ class PlayState extends FlxState
         cloudsFG.speed = cspeed[2];
         add(cloudsFG);
 
-	    blur = new FlxGroup();
-	    add(blur);
-	    Global.blur = blur;
-
 	    body = new FlxGroup();
 	    add(body);
 
-		//FlxG.cameras.bgColor = 0x11000000;
-	    Global.game = this;
-
-
-        dragon = new DragonHead(Global.dragonHeadX,80, numBodies, dbLast);
-        add(dragon);
-
-	    dragonBodies = [];
-	    addBody(numBodies);
+	    head = new FlxGroup();
+	    add(head);
 
         //stars = new Stars(dragon.x, dragon.y);
         //add(stars);
@@ -169,11 +161,9 @@ class PlayState extends FlxState
 	    walls = new FlxGroup();
 	    add(walls);
 
-	    wallsTop = [];
-	    wallsBottom = [];
-	    addWalls();
-
-	    setupUI();
+        if (!Global.title)
+            gameStart();
+        else titleSetup();
 
 	    // speed up for testing
 	    /*
@@ -182,6 +172,37 @@ class PlayState extends FlxState
 	    }
 	    */
 	}
+
+
+    private function titleSetup():Void
+    {
+        cloudsFG.yPos += 5;
+    }
+
+    private function gameStart():Void
+    {
+        FlxG.camera.flash(0x000000,0.5);
+
+        //dragon = new DragonHead(Global.dragonHeadX,80, numBodies, dbLast);
+        dragon = new DragonHead(-50,80, numBodies, dbLast);
+        head.add(dragon);
+
+	    dragonBodies = [];
+	    addBody(numBodies);
+
+
+	    addWalls();
+	    setupUI();
+    }
+
+    private function dragonAdvances():Void
+    {
+        dragon.x += 1;
+        for (i in 0...dragonBodies.length)
+        {
+            dragonBodies[i].x += 1;
+        }
+    }
 
 
 	private function setupUI():Void
@@ -200,8 +221,6 @@ class PlayState extends FlxState
             FlxG.camera.x -= 20;
             FlxG.camera.y -= 20;
         }
-
-        //FlxG.worldBounds = new FlxRect(0, 0, map.width, map.height);
 	}
 
 	private function addBody(num:Int = 3):Void
@@ -246,14 +265,16 @@ class PlayState extends FlxState
 
 	private function addWalls():Void
 	{
+	    wallsTop = [];
+	    wallsBottom = [];
 	    last = FlxG.height * 0.5;
 
         numWalls = Math.ceil(FlxG.width / wallSpacing);
 
         for (i in 0...numWalls)
         {
-            wallsTop.push(new Wall(FlxG.width + fp + (i * wallSpacing), (FlxG.height * 0.5) - spaceSize - 160));
-            wallsBottom.push(new Wall(FlxG.width + fp + (i * wallSpacing), (FlxG.height * 0.5) + spaceSize, false));
+            wallsTop.push(new Wall(FlxG.width + fp + (i * wallSpacing) + 300, (FlxG.height * 0.5) - spaceSize - 160));
+            wallsBottom.push(new Wall(FlxG.width + fp + (i * wallSpacing) + 300, (FlxG.height * 0.5) + spaceSize, false));
 
             walls.add(wallsTop[i]);
             walls.add(wallsBottom[i]);
@@ -272,6 +293,13 @@ class PlayState extends FlxState
 
 	override public function update():Void {
 		super.update();
+
+		if (Global.title)
+		{
+		    gameStartButton();
+		    return;
+	    }
+
 	    wallPlacer();
 
         if (!Global.gameOver) {
@@ -287,6 +315,9 @@ class PlayState extends FlxState
 
         if (dragon.y <= FlxG.height)
 		    cloudYmove();
+
+        if (dragon.x < Global.dragonHeadX)
+            dragonAdvances();
 
 		//dumbEffects();
 	}
@@ -307,6 +338,16 @@ class PlayState extends FlxState
 	    }
 
 
+	}
+
+	private function gameStartButton():Void
+	{
+        if (FlxG.mouse.justReleased)
+        {
+            FlxG.camera.flash(0x000000,0.5);
+            Global.title = false;
+            gameStart();
+	    }
 	}
 
 	private function dumbEffects():Void

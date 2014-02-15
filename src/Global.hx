@@ -35,6 +35,8 @@ class Global {
 
     static public var dragonHeadX:Float = 124;
 
+    static public var title:Bool = true;
+
 /*
 	static public function playMusic(Music:String):Void
 	{

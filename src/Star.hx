@@ -12,6 +12,7 @@ class Star extends WeatherParticle
     var scaleArray:Array<Float>;
     var colorArray:Array<Int>;
     var speed:Float = 0;
+    var iSpeed:Float = 0;
 
 	public function new(X:Float, Y:Float)
 	{
@@ -37,12 +38,17 @@ class Star extends WeatherParticle
         type = Std.int(Math.round(Math.random() * (scaleArray.length - 1)));
         scale.x = scaleArray[type];
         scale.y = scale.x;
+
+        iSpeed = speed;
 	}
 
 
 	override public function update():Void
 	{
 		super.update();
+
+        // stars speed up with you
+        speed = (Global.speed / Global.initialSpeed) * iSpeed;
 
 		x += speed * FlxG.elapsed;
 	}
