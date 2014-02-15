@@ -48,7 +48,8 @@ class Star extends WeatherParticle
 		super.update();
 
         // stars speed up with you
-        speed = (Global.speed / Global.initialSpeed) * iSpeed;
+        if (!Global.gameOver)
+            speed = (Global.speed / Global.initialSpeed) * iSpeed;
 
 		x += speed * FlxG.elapsed;
 	}

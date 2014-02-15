@@ -84,6 +84,8 @@ class PlayState extends FlxState
     private var speedUpRate:Float = 3.5;
 
     private var scoreTxt:FlxText;
+    private var title:FlxSprite;
+    private var subtitle:FlxSprite;
 
     // sway effect
     private var wiggle:Bool = false;
@@ -177,6 +179,17 @@ class PlayState extends FlxState
     private function titleSetup():Void
     {
         cloudsFG.yPos += 5;
+        title = new FlxSprite(0, FlxG.height * 0.28);
+        title.loadGraphic("assets/title.png", false, false, 260, 21);
+        title.x = (FlxG.width - title.width) * 0.5;
+        add(title);
+
+
+        subtitle = new FlxSprite(0, title.y + title.height + 29);
+        subtitle.loadGraphic("assets/destiny.png", false, false, 89, 9);
+        subtitle.x = (FlxG.width - subtitle.width) * 0.5;
+        subtitle.alpha = 0;
+        add(subtitle);
     }
 
     private function gameStart():Void
@@ -207,9 +220,10 @@ class PlayState extends FlxState
 
 	private function setupUI():Void
 	{
-        scoreTxt = new FlxText(0, 4, FlxG.width, "0", 16);
+        scoreTxt = new FlxText(0, 4, FlxG.width, "0", 20, true);
         scoreTxt.alignment = "center";
         scoreTxt.color = 0xf5f40b;
+        scoreTxt.font = "assets/visitor.ttf";
         scoreTxt.setBorderStyle(2, 0x000000, 1, 1);
     	add(scoreTxt);
 
@@ -340,10 +354,19 @@ class PlayState extends FlxState
 
 	}
 
+    var destinyTimer:Int = 30;
 	private function gameStartButton():Void
 	{
+	    destinyTimer--;
+	    if (subtitle.alpha < 0.30 && destinyTimer <= 0)
+	    {
+	        subtitle.alpha += 0.004;
+	        subtitle.y -= .3 - subtitle.alpha;
+	    }
         if (FlxG.mouse.justReleased)
         {
+            title.destroy();
+            subtitle.destroy();
             FlxG.camera.flash(0x000000,0.5);
             Global.title = false;
             gameStart();
@@ -429,10 +452,13 @@ class PlayState extends FlxState
             dragon.maxSpeed += 1;
 
             // adds speed to clouds
-            speedRatio = Global.speed / Global.initialSpeed;
-            cloudsFG.speed = cspeed[2] * speedRatio;
-            cloudsMG.speed = cspeed[1] * speedRatio;
-            cloudsBG.speed = cspeed[0] * speedRatio;
+            if (!Global.gameOver)
+            {
+                speedRatio = Global.speed / Global.initialSpeed;
+                cloudsFG.speed = cspeed[2] * speedRatio;
+                cloudsMG.speed = cspeed[1] * speedRatio;
+                cloudsBG.speed = cspeed[0] * speedRatio;
+            }
 
         }
         else // old
