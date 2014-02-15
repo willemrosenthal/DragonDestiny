@@ -24,9 +24,10 @@ class Star extends WeatherParticle
 
         //speedArray = [-200,-125,-50];
         speedArray = [-20,-13,-5];
-        alphaArray = [1,0.7,0.33,0.5,0.2];
+        speedArray = [-16,-9];
+        alphaArray = [1,0.7,0.7,0.5,0.2];
         colorArray = [0xb06800,0x780038,0x2c065c];
-        scaleArray = [1,2,3];
+        scaleArray = [1,2];
 
         var type:Int = Std.int(Math.round(Math.random() * (speedArray.length - 1)));
         speed = speedArray[type];
@@ -43,6 +44,6 @@ class Star extends WeatherParticle
 	{
 		super.update();
 
-		velocity.x = speed;
+		x += speed * FlxG.elapsed;
 	}
 }

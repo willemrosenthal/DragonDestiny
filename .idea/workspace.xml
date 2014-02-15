@@ -4,12 +4,12 @@
     <list default="true" id="6a1f03e1-7955-412a-8baf-c1408e3b691a" name="Default" comment="" />
     <ignored path="dragon.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/project.xml" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392400723164" ignored="false" />
+    <file path="/project.xml" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392431497225" ignored="false" />
     <file path="/DragonHead.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392429518050" ignored="false" />
-    <file path="/Dummy.txt" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392347101414" ignored="false" />
+    <file path="/Dummy.txt" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392431954893" ignored="false" />
     <file path="/Player.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392191958206" ignored="false" />
     <file path="$PROJECT_DIR$/../RGB/src/Player.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392191977100" ignored="false" />
-    <file path="/PlayState.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392430708694" ignored="false" />
+    <file path="/PlayState.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392435137639" ignored="false" />
     <file path="/Global.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392275828477" ignored="false" />
     <file path="/Stars.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392279769840" ignored="false" />
     <file path="/WeatherParticle.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392279022881" ignored="false" />
@@ -26,11 +26,11 @@
     <file path="/DragonBodyCarcas.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392261510381" ignored="false" />
     <file path="/Calculations.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392263307188" ignored="false" />
     <file path="/Wall.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392352798145" ignored="false" />
-    <file path="$PROJECT_DIR$/export/ios/Flappy Dragon/haxe/build/Release-iphoneos/Build.xml" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392431234491" ignored="false" />
+    <file path="$PROJECT_DIR$/export/ios/Flappy Dragon/haxe/build/Release-iphoneos/Build.xml" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392435587286" ignored="false" />
     <file path="$PROJECT_DIR$/../pakkaPets/client/src/pakka/graphics/rendering/sheets/decorations/mixed/MixedDecorationsSheet.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392335609381" ignored="false" />
     <file path="/Cloud.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392352708407" ignored="false" />
     <file path="/Paralax.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392429301380" ignored="false" />
-    <file path="/Star.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392431003668" ignored="false" />
+    <file path="/Star.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392435481698" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,19 +109,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayState.hx" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PlayState.hx" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="19" selection-start="2720" selection-end="2720" vertical-scroll-proportion="-43.653847">
+            <state line="329" column="33" selection-start="8116" selection-end="8116" vertical-scroll-proportion="1.6290323">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Star.hx" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Star.hx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Star.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="48" selection-start="605" selection-end="605" vertical-scroll-proportion="0.31990522">
+            <state line="46" column="33" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,7 +157,7 @@
       <file leaf-file-name="project.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
+            <state line="14" column="113" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -200,13 +200,13 @@
         <option value="$PROJECT_DIR$/src/Stars.hx" />
         <option value="$PROJECT_DIR$/src/Wall.hx" />
         <option value="$PROJECT_DIR$/src/Cloud.hx" />
-        <option value="$PROJECT_DIR$/project.xml" />
         <option value="$PROJECT_DIR$/src/Paralax.hx" />
         <option value="$PROJECT_DIR$/src/GameClass.hx" />
         <option value="$PROJECT_DIR$/src/Parallax.hx" />
         <option value="$PROJECT_DIR$/src/DragonHead.hx" />
-        <option value="$PROJECT_DIR$/src/PlayState.hx" />
+        <option value="$PROJECT_DIR$/project.xml" />
         <option value="$PROJECT_DIR$/src/Star.hx" />
+        <option value="$PROJECT_DIR$/src/PlayState.hx" />
       </list>
     </option>
   </component>
@@ -270,46 +270,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dragon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dragon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ddd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dragon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dragon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ddd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="animals" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -551,19 +511,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ddd/src/Animal.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="35" selection-start="642" selection-end="672" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DragonCarcass.hx">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="19" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd/src/animals/Bee.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="62" selection-start="400" selection-end="611" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculations.hx">
@@ -593,13 +543,6 @@
     <entry file="file://$PROJECT_DIR$/src/DragonBody.hx">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="22" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -639,16 +582,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
+    <entry file="file://$PROJECT_DIR$/project.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="19" selection-start="2720" selection-end="2720" vertical-scroll-proportion="-43.653847">
+        <state line="14" column="113" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Star.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="48" selection-start="605" selection-end="605" vertical-scroll-proportion="0.31990522">
+        <state line="46" column="33" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="329" column="33" selection-start="8116" selection-end="8116" vertical-scroll-proportion="1.6290323">
           <folding />
         </state>
       </provider>

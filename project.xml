@@ -3,7 +3,7 @@
 
 
     package="com.rgb"
-    <meta title="Flappy Dragon" description="A Flappy Jam game made in support of the Flappy Bird creator." package="flappydragon" version="0.0.1" company="Willem Rosenthal" />
+    <meta title="Flappy Dragon" description="A Flappy Jam game made in support of the Flappy Bird creator." package="com.flappydragon" version="0.0.1" company="Willem Rosenthal" />
     <app title="Flappy Dragon" file="Flappy Dragon" main="Main" version="0.0.1" company="Willem Rosenthal" />
 
     <window width="1136" height="640" fps="60" orientation="landscape" resizable="true" if="web" />

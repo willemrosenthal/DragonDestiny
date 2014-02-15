@@ -114,7 +114,7 @@ class PlayState extends FlxState
 
 	    space = new FlxGroup();
 	    add(space);
-	    addStars(45);
+	    addStars(Math.round(Math.random() * 30 + 15));
 
         if (cloudsOn)
         {
@@ -128,20 +128,21 @@ class PlayState extends FlxState
         }
 
         //csa = [FlxG.height * 0.62,FlxG.height * 0.7,FlxG.height * 0.84];
-        csa = [FlxG.height * 0.6,FlxG.height * 0.65,FlxG.height * 0.75];
+        csa = [FlxG.height * 0.55,FlxG.height * 0.62,FlxG.height * 0.75];
+
 
         //cspeed = [-25, -50, -75];
-        cspeed = [-25, -75, -125];
+        cspeed = [-30, -75, -125];
 
-        cloudsBG = new Parallax(csa[0],"assets/clouds/cloud_back.png",156,80);
+        cloudsBG = new Parallax(csa[0],"assets/clouds/cloud_back.png",156,100);
         cloudsBG.speed = cspeed[0];
         add(cloudsBG);
 
-        cloudsMG = new Parallax(csa[1],"assets/clouds/cloud_mid.png",134,70);
+        cloudsMG = new Parallax(csa[1],"assets/clouds/cloud_mid.png",134,100);
         cloudsMG.speed = cspeed[1];
         add(cloudsMG);
 
-        cloudsFG = new Parallax(csa[2],"assets/clouds/cloud_front.png",132,80);
+        cloudsFG = new Parallax(csa[2],"assets/clouds/cloud_front.png",132,100);
         cloudsFG.speed = cspeed[2];
         add(cloudsFG);
 
@@ -291,13 +292,21 @@ class PlayState extends FlxState
 	}
 
     var hdiff:Float = 0;
+    var yAdder:Float = 12;
 	private function cloudYmove():Void
 	{
 	    hdiff = (FlxG.height - dragon.y)/FlxG.height;
 
-	    cloudsFG.yPos = cloudsFG.initialY + (20 * hdiff);
-	    cloudsMG.yPos = cloudsMG.initialY - (10 * hdiff);
-	    cloudsBG.yPos = cloudsBG.initialY - (25 * hdiff);
+	    cloudsFG.yPos = cloudsFG.initialY + (20 * hdiff) - 12 * hdiff;
+	    cloudsMG.yPos = cloudsMG.initialY - (0 * hdiff) - 10 * hdiff;
+	    cloudsBG.yPos = cloudsBG.initialY - (7 * hdiff) - 8 * hdiff;
+	    if (Global.gameOver && yAdder > 0)
+	    {
+	        cloudsBG.initialY += 0.12;
+	        yAdder -= 0.12;
+	    }
+
+
 	}
 
 	private function dumbEffects():Void
@@ -364,6 +373,7 @@ class PlayState extends FlxState
 
 
     var oldSpeedWay:Bool = false;
+    var speedRatio:Float = 0;
 
     private function speedUp():Void {
         if (Global.total > 40)
@@ -376,6 +386,13 @@ class PlayState extends FlxState
         {
             dragon.speed += .15;
             dragon.maxSpeed += 1;
+
+            // adds speed to clouds
+            speedRatio = Global.speed / Global.initialSpeed;
+            cloudsFG.speed = cspeed[2] * speedRatio;
+            cloudsMG.speed = cspeed[1] * speedRatio;
+            cloudsBG.speed = cspeed[0] * speedRatio;
+
         }
         else // old
         {
