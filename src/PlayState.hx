@@ -400,8 +400,10 @@ class PlayState extends FlxState
         lastScore.font = "assets/visitor.ttf";
     	add(lastScore);
 
-        if (Global.total > Global.best)
+        if (Global.total > Global.best) {
+            saveScore();
             return;
+        }
 
 	    var bestScoreTitle:FlxSprite = new FlxSprite(0, scoreTitle.y + 98);
         bestScoreTitle.loadGraphic("assets/topscore.png", false, false, 70, 5);
@@ -414,9 +416,7 @@ class PlayState extends FlxState
         bestScore.font = "assets/visitor.ttf";
     	add(bestScore);
 
-        if (Global.total > Global.best)
-    	    Global.best = Global.total;
-
+    	Global.best = Global.total;
 	    saveScore();
 	}
 
