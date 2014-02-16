@@ -26,7 +26,7 @@
     <file path="/DragonBodyCarcas.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392261510381" ignored="false" />
     <file path="/Calculations.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392263307188" ignored="false" />
     <file path="/Wall.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392352798145" ignored="false" />
-    <file path="$PROJECT_DIR$/export/ios/Flappy Dragon/haxe/build/Release-iphoneos/Build.xml" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392543034018" ignored="false" />
+    <file path="$PROJECT_DIR$/export/ios/Flappy Dragon/haxe/build/Release-iphoneos/Build.xml" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392543269041" ignored="false" />
     <file path="$PROJECT_DIR$/../pakkaPets/client/src/pakka/graphics/rendering/sheets/decorations/mixed/MixedDecorationsSheet.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392335609381" ignored="false" />
     <file path="/Cloud.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392352708407" ignored="false" />
     <file path="/Paralax.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392429301380" ignored="false" />
@@ -113,7 +113,7 @@
       <file leaf-file-name="PlayState.hx" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="396" column="88" selection-start="10108" selection-end="10108" vertical-scroll-proportion="0.13293944">
+            <state line="417" column="23" selection-start="10903" selection-end="10903" vertical-scroll-proportion="0.86410636">
               <folding />
             </state>
           </provider>
@@ -609,7 +609,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="396" column="88" selection-start="10108" selection-end="10108" vertical-scroll-proportion="0.13293944">
+        <state line="417" column="23" selection-start="10903" selection-end="10903" vertical-scroll-proportion="0.86410636">
           <folding />
         </state>
       </provider>

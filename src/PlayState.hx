@@ -401,6 +401,7 @@ class PlayState extends FlxState
     	add(lastScore);
 
         if (Global.total > Global.best) {
+    	    Global.best = Global.total;
             saveScore();
             return;
         }
@@ -415,9 +416,6 @@ class PlayState extends FlxState
         bestScore.color = 0xffffff;
         bestScore.font = "assets/visitor.ttf";
     	add(bestScore);
-
-    	Global.best = Global.total;
-	    saveScore();
 	}
 
     var hdiff:Float = 0;
