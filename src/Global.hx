@@ -32,6 +32,7 @@ class Global {
 
 	static public var gameOver:Bool = false;
 	static public var total:Int = 0;
+	static public var best:Int = 0;
 
     static public var dragonHeadX:Float = 124;
 

@@ -9,8 +9,8 @@
     <file path="/Dummy.txt" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392447086689" ignored="false" />
     <file path="/Player.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392191958206" ignored="false" />
     <file path="$PROJECT_DIR$/../RGB/src/Player.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392191977100" ignored="false" />
-    <file path="/PlayState.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392453186199" ignored="false" />
-    <file path="/Global.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392445121067" ignored="false" />
+    <file path="/PlayState.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392515984760" ignored="false" />
+    <file path="/Global.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392485497047" ignored="false" />
     <file path="/Stars.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392279769840" ignored="false" />
     <file path="/WeatherParticle.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392279022881" ignored="false" />
     <file path="$PROJECT_DIR$/../pakkaPets/client/src/pakka/starting/rooms/StarterRoom.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392335586119" ignored="false" />
@@ -26,11 +26,12 @@
     <file path="/DragonBodyCarcas.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392261510381" ignored="false" />
     <file path="/Calculations.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392263307188" ignored="false" />
     <file path="/Wall.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392352798145" ignored="false" />
-    <file path="$PROJECT_DIR$/export/ios/Flappy Dragon/haxe/build/Release-iphoneos/Build.xml" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392452395668" ignored="false" />
+    <file path="$PROJECT_DIR$/export/ios/Flappy Dragon/haxe/build/Release-iphoneos/Build.xml" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392516410927" ignored="false" />
     <file path="$PROJECT_DIR$/../pakkaPets/client/src/pakka/graphics/rendering/sheets/decorations/mixed/MixedDecorationsSheet.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392335609381" ignored="false" />
     <file path="/Cloud.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392352708407" ignored="false" />
     <file path="/Paralax.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392429301380" ignored="false" />
     <file path="/Star.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392437806313" ignored="false" />
+    <file path="/Hand.hx" changelist="6a1f03e1-7955-412a-8baf-c1408e3b691a" time="1392516041306" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,16 +104,16 @@
       <file leaf-file-name="Global.hx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Global.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="27" selection-start="879" selection-end="884" vertical-scroll-proportion="0.0">
+            <state line="34" column="26" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayState.hx" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PlayState.hx" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="454" column="11" selection-start="11719" selection-end="11755" vertical-scroll-proportion="-28.076923">
+            <state line="396" column="101" selection-start="10121" selection-end="10121" vertical-scroll-proportion="0.5790251">
               <folding />
             </state>
           </provider>
@@ -122,15 +123,6 @@
         <entry file="file://$PROJECT_DIR$/src/Star.hx">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="41" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wall.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Wall.hx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="27" selection-start="384" selection-end="390" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,16 +140,16 @@
       <file leaf-file-name="DragonHead.hx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DragonHead.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="44" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0">
+            <state line="89" column="37" selection-start="1776" selection-end="1806" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="project.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1739" selection-end="1739" vertical-scroll-proportion="0.34360188">
+            <state line="22" column="51" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -181,6 +173,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Hand.hx" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Hand.hx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="23" selection-start="436" selection-end="436" vertical-scroll-proportion="-13.269231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -191,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/DragonCarcass.hx" />
         <option value="$PROJECT_DIR$/src/Calculations.hx" />
         <option value="$PROJECT_DIR$/src/DragonBody.hx" />
         <option value="$PROJECT_DIR$/src/Main.hx" />
@@ -202,18 +202,19 @@
         <option value="$PROJECT_DIR$/src/Paralax.hx" />
         <option value="$PROJECT_DIR$/src/GameClass.hx" />
         <option value="$PROJECT_DIR$/src/Parallax.hx" />
-        <option value="$PROJECT_DIR$/src/Global.hx" />
         <option value="$PROJECT_DIR$/src/DragonHead.hx" />
-        <option value="$PROJECT_DIR$/src/PlayState.hx" />
         <option value="$PROJECT_DIR$/src/Star.hx" />
         <option value="$PROJECT_DIR$/project.xml" />
+        <option value="$PROJECT_DIR$/src/Global.hx" />
+        <option value="$PROJECT_DIR$/src/Hand.hx" />
+        <option value="$PROJECT_DIR$/src/PlayState.hx" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="2560" />
-    <option name="height" value="1414" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -285,6 +286,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RGB" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -422,7 +424,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -437,7 +439,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22076373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19655667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -535,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DragonBody.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="22" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Wall.hx">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="27" selection-start="384" selection-end="390" vertical-scroll-proportion="0.0">
@@ -556,23 +551,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global.hx">
+    <entry file="file://$PROJECT_DIR$/src/Star.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="27" selection-start="879" selection-end="884" vertical-scroll-proportion="0.0">
+        <state line="9" column="41" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DragonBody.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="22" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DragonHead.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="44" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0">
+        <state line="89" column="37" selection-start="1776" selection-end="1806" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parallax.hx">
+    <entry file="file://$PROJECT_DIR$/project.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="12" selection-start="933" selection-end="1092" vertical-scroll-proportion="0.0">
+        <state line="22" column="51" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -584,23 +586,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parallax.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="12" selection-start="933" selection-end="1092" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="26" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hand.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="23" selection-start="436" selection-end="436" vertical-scroll-proportion="-13.269231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="454" column="11" selection-start="11719" selection-end="11755" vertical-scroll-proportion="-28.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Star.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="41" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1739" selection-end="1739" vertical-scroll-proportion="0.34360188">
+        <state line="396" column="101" selection-start="10121" selection-end="10121" vertical-scroll-proportion="0.5790251">
           <folding />
         </state>
       </provider>

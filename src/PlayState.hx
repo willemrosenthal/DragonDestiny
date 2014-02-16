@@ -17,6 +17,11 @@ import openfl.Assets;
 import flixel.effects.particles.FlxEmitter;
 
 
+import flixel.util.FlxSave;
+import flash.net.SharedObject;
+import flash.net.SharedObjectFlushStatus;
+
+
 import flixel.tweens.FlxTween;
 import flixel.tweens.FlxTween.TweenOptions;
 import flixel.util.FlxColor;
@@ -86,6 +91,10 @@ class PlayState extends FlxState
     private var scoreTxt:FlxText;
     private var title:FlxSprite;
     private var subtitle:FlxSprite;
+
+    private var showScore:Bool = false;
+    private var lastScore:FlxText;
+    private var bestScore:FlxText;
 
     // sway effect
     private var wiggle:Bool = false;
@@ -190,6 +199,8 @@ class PlayState extends FlxState
         subtitle.x = (FlxG.width - subtitle.width) * 0.5;
         subtitle.alpha = 0;
         add(subtitle);
+
+        loadScore();
     }
 
     private function gameStart():Void
@@ -206,6 +217,23 @@ class PlayState extends FlxState
 
 	    addWalls();
 	    setupUI();
+	    addTutorial();
+    }
+
+    var tutorialHand:Hand;
+    var tutorialLines:FlxSprite;
+    var tutorial:Bool = true;
+    private function addTutorial():Void
+    {
+
+	    tutorialLines = new FlxSprite(FlxG.width - 51, 0);
+        tutorialLines.loadGraphic("assets/instructions.png", false, false, 12, 82);
+        tutorialLines.y = (FlxG.height - tutorialLines.height) * 0.5;
+        tutorialLines.alpha = 0.9;
+        add(tutorialLines);
+
+        tutorialHand = new Hand(FlxG.width - 48, FlxG.height * 0.5 - 2);
+        add(tutorialHand);
     }
 
     private function dragonAdvances():Void
@@ -222,7 +250,7 @@ class PlayState extends FlxState
 	{
         scoreTxt = new FlxText(0, 4, FlxG.width, "0", 20, true);
         scoreTxt.alignment = "center";
-        scoreTxt.color = 0xf5f40b;
+        scoreTxt.color = 0xffffff; //0xf5f40b;
         scoreTxt.font = "assets/visitor.ttf";
         scoreTxt.setBorderStyle(2, 0x000000, 1, 1);
     	add(scoreTxt);
@@ -322,6 +350,8 @@ class PlayState extends FlxState
 		}
 		if (Global.gameOver)
 		{
+		    if (!showScore)
+		        showScores();
 		    Global.speed *= 0.97;
 		    if (Global.speed < 5 && FlxG.mouse.justReleased)
                 FlxG.switchState(new PlayState());
@@ -333,7 +363,61 @@ class PlayState extends FlxState
         if (dragon.x < Global.dragonHeadX)
             dragonAdvances();
 
+        if (tutorial)
+        {
+            if (tutorialHand.timer > 100)
+                {
+                    tutorialHand.alpha -= 0.02;
+                    tutorialLines.alpha -= 0.02;
+                }
+            if (tutorialHand.alpha <= 0)
+                {
+                    tutorialHand.destroy();
+                    tutorialLines.destroy();
+                }
+        }
+
 		//dumbEffects();
+	}
+
+	private function showScores():Void
+	{
+	    showScore = true;
+
+    	scoreTxt.destroy();
+
+	    var scoreTitle:FlxSprite = new FlxSprite(0, FlxG.height * 0.24);
+	    if (Global.total <= Global.best)
+            scoreTitle.loadGraphic("assets/currentscore.png", false, false, 102, 5);
+	    if (Global.total > Global.best)
+            scoreTitle.loadGraphic("assets/newtopscore.png", false, false, 107, 5);
+        scoreTitle.x = (FlxG.width - scoreTitle.width) * 0.5;
+        add(scoreTitle);
+
+        lastScore = new FlxText(0, scoreTitle.y + 5, FlxG.width, Std.string(Global.total), 80, true);
+        lastScore.alignment = "center";
+        lastScore.color = 0xffffff;
+        lastScore.font = "assets/visitor.ttf";
+    	add(lastScore);
+
+        if (Global.total > Global.best)
+            return;
+
+	    var bestScoreTitle:FlxSprite = new FlxSprite(0, scoreTitle.y + 98);
+        bestScoreTitle.loadGraphic("assets/topscore.png", false, false, 70, 5);
+        bestScoreTitle.x = (FlxG.width - bestScoreTitle.width) * 0.5;
+        add(bestScoreTitle);
+
+        bestScore = new FlxText(0, bestScoreTitle.y + 9, FlxG.width, Std.string(Global.best), 20, true);
+        bestScore.alignment = "center";
+        bestScore.color = 0xffffff;
+        bestScore.font = "assets/visitor.ttf";
+    	add(bestScore);
+
+        if (Global.total > Global.best)
+    	    Global.best = Global.total;
+
+	    saveScore();
 	}
 
     var hdiff:Float = 0;
@@ -478,6 +562,56 @@ class PlayState extends FlxState
 	    dragon.breakHead();
 	}
 
+	private var so:SharedObject;
+    private function saveScore():Void
+    {
+    	so = SharedObject.getLocal( "FlappyDragonSave" );
 
+    	so.data.best = Global.best;
+
+    	// Prepare to save.. with some checks
+    	#if ( cpp || neko )
+    			// Android didn't wanted SharedObjectFlushStatus not to be a String
+    			var flushStatus:SharedObjectFlushStatus = null;
+    	#else
+    	// Flash wanted it very much to be a String
+    			var flushStatus:String = null;
+    	#end
+
+    	try
+    	{
+    		flushStatus = so.flush() ;      // Save the object
+    	}
+    	catch ( e:Dynamic )
+    	{
+    		//trace("couldnt write...");
+    	}
+
+    	if ( flushStatus != null )
+    	{
+    		switch( flushStatus )
+    		{
+    			case SharedObjectFlushStatus.PENDING:
+    				//trace('requesting permission to save');
+    			case SharedObjectFlushStatus.FLUSHED:
+    				//trace('value saved');
+    		}
+    	}
+    }
+
+
+	private function loadScore():Void
+	{
+		so = SharedObject.getLocal( "FlappyDragonSave" );
+		if (so.data.best == null)
+		{
+			so.data.best = 0;
+			Global.best = 0;
+		}
+        else
+        {
+		    Global.best = so.data.best;
+		}
+	}
 
 }
