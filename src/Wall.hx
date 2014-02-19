@@ -38,6 +38,7 @@ class Wall extends FlxSprite
             {
                 count = true;
                 Global.total ++;
+		        FlxG.sound.play("assets/sfx/point.wav", 0.08, false); //6 //7 //8
             }
             if (x > Global.dragonHeadX && count)
                 count = false;

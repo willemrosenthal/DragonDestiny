@@ -3,15 +3,13 @@ import flixel.util.FlxPoint;
 import flixel.FlxG;
 import flixel.group.FlxGroup;
 import flixel.tile.FlxTilemap;
+import flixel.system.FlxSound;
 
 class Global {
 
 	static public var ini:Bool;
 
 	static public var zeroPoint:FlxPoint;
-
-	static public var music:String = "";
-
 
 	static public var gameZoom:Float;
 	static public var game:FlxGroup;
@@ -38,7 +36,13 @@ class Global {
 
     static public var title:Bool = true;
 
-/*
+    static public var music:FlxSound;
+    static public var cMusic:String = "";
+
+
+
+
+    /*
 	static public function playMusic(Music:String):Void
 	{
 		if (music != Music) {
@@ -47,6 +51,28 @@ class Global {
 		music = Music;
 	}
 	*/
+	static public function playMusic(Music:String):Void
+    	{
+    		if (cMusic != Music) {
+    			//music.playMusic(Music);
+
+    			if (music == null)
+                {
+                    music = new FlxSound();
+                    game.add(music);
+                }
+                else if (music.active)
+                {
+                	music.stop();
+                }
+                music.loadEmbedded(Music, true);
+                music.survive = true;
+                music.fadeIn(2);
+                music.play();
+
+    		   }
+    		cMusic = Music;
+    	}
 
 
 }

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 
-
-    package="com.rgb"
-    <meta title="Flappy Dragon" description="A Flappy Jam game made in support of the Flappy Bird creator." package="com.flappydragon" version="0.0.1" company="Willem Rosenthal" />
+    <meta title="Flappy Dragon" description="A Flappy Jam game made in support of the Flappy Bird creator." package="com.willemrosenthal.flappydragon" version="0.0.1" company="Willem Rosenthal" />
     <app title="Flappy Dragon" file="Flappy Dragon" main="Main" version="0.0.1" company="Willem Rosenthal" />
 
     <window width="1136" height="640" fps="60" orientation="landscape" resizable="true" if="web" />
@@ -25,7 +23,10 @@
     <haxelib name="openfl" />
     <haxelib name="flixel"/>
 
+    <!--set name="ANDROID_SETUP" value="true" /-->
+    <android target-sdk-version="19" />
 
+    <!--
     <icon path="assets/Icon.png" size="57" ></icon>
     <icon path="assets/Icon@2x.png" size="114" ></icon>
 
@@ -37,6 +38,33 @@
 
     <icon path="assets/icon-76.png" size="76" ></icon>
     <icon path="assets/Icon-76@2x.png" size="152" ></icon>
+    -->
+
+
+
+    <icon path="assets/Icon.png" size="57" unless="android"></icon>
+    <icon path="assets/Icon@2x.png" size="114" unless="android"></icon>
+    <icon path="assets/Icon-60.png" size="60" unless="android"></icon>
+    <icon path="assets/Icon-60@2x.png" size="120" unless="android"></icon>
+    <icon path="assets/Icon-72.png" size="72" unless="android"></icon>
+    <icon path="assets/Icon-72@2x.png" size="144" unless="android"></icon>
+    <icon path="assets/Icon-76.png" size="76" unless="android"></icon>
+    <icon path="assets/Icon-76@2x.png" size="152" unless="android"></icon>
+
+
+    <icon path="assets/36.png" size="36" if="android"></icon>
+    <icon path="assets/48.png" size="48" if="android"></icon>
+    <icon path="assets/72.png" size="72" if="android"></icon>
+    <icon path="assets/96.png" size="96" if="android"></icon>
+    <icon path="assets/android_artwork.png" size="512" if="android"></icon>
+
+    <!--
+    <icon path="assets/data/36.png" size="36" if="android"></icon>
+    <icon path="assets/data/48.png" size="48" if="android"></icon>
+    <icon path="assets/Icon-72.png" size="72" if="android"></icon>
+    <icon path="assets/data/96.png" size="96" if="android"></icon>
+    <icon path="assets/data/artwork.png" size="512" if="android"></icon>
+    -->
 
 
     <!--
@@ -72,6 +100,7 @@
     <!--<haxedef name="FLX_NO_KEYBOARD" if="mobile" />-->
     <!--<haxedef name="FLX_NO_TOUCH" if="desktop" />-->
     <!--<haxedef name="FLX_NO_GAMEPAD" />-->
+
 
 
     <launchImage path="assets/launchImages/Default-568h@2x.png" width="640" height="1136" />

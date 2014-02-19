@@ -15,6 +15,7 @@ import flixel.ui.FlxButton;
 import flixel.util.FlxSpriteUtil;
 import openfl.Assets;
 import flixel.effects.particles.FlxEmitter;
+import flixel.system.FlxSound;
 
 
 import flixel.util.FlxSave;
@@ -120,6 +121,7 @@ class PlayState extends FlxState
         Global.total = 0;
         Global.speed = Global.initialSpeed;
         dbLast = Global.dbLast;
+        Global.game = this;
     }
 
 	override public function create():Void {
@@ -176,6 +178,8 @@ class PlayState extends FlxState
             gameStart();
         else titleSetup();
 
+        setMusic();
+
 	    // speed up for testing
 	    /*
 	    for (i in 0...35){
@@ -183,6 +187,26 @@ class PlayState extends FlxState
 	    }
 	    */
 	}
+
+	private function setMusic():Void
+	{
+	    if (Math.random() < 0.5)
+	        playMusic("assets/music/robosmack.mp3");
+	    else
+	        playMusic("assets/music/blindspot.mp3");
+	}
+
+	private var music:FlxSound;
+	private function playMusic(Music:String):Void
+    {
+        music = new FlxSound();
+        add(music);
+
+        music.loadEmbedded(Music, true);
+        music.survive = true;
+        music.fadeIn(0.5);
+        music.play();
+    }
 
 
     private function titleSetup():Void
@@ -354,7 +378,9 @@ class PlayState extends FlxState
 		        showScores();
 		    Global.speed *= 0.97;
 		    if (Global.speed < 5 && FlxG.mouse.justReleased)
+		    {
                 FlxG.switchState(new PlayState());
+            }
 		}
 
         if (dragon.y <= FlxG.height)
@@ -553,6 +579,10 @@ class PlayState extends FlxState
 
     private function touchWall(d:FlxSprite, wall:FlxSprite):Void {
 	    Global.gameOver = true;
+	    //FlxG.play("bump1",0.5,true);
+
+		FlxG.sound.play("assets/sfx/bump2_edit2.wav", 1, false); //bump2_edit2 //bump3 //bump2_combo
+
 	    for (i in 0...dragonBodies.length)
 	    {
 	        dragonBodies[i].breakBody();
