@@ -410,7 +410,7 @@ class PlayState extends FlxState
 	{
 	    showScore = true;
 
-    	scoreTxt.destroy();
+    	scoreTxt.alpha = 0;
 
 	    var scoreTitle:FlxSprite = new FlxSprite(0, FlxG.height * 0.24);
 	    if (Global.total <= Global.best)
