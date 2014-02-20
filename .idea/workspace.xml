@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a1f03e1-7955-412a-8baf-c1408e3b691a" name="Default" comment="" />
+    <list default="true" id="6a1f03e1-7955-412a-8baf-c1408e3b691a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icon.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_32.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_35.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_43.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_46.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_47.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_50.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_53.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_54.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_55.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_59.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_65.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_72.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_73.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_80.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_84.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_88.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sfx/Atari_91.wav" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Wall.hx" afterPath="$PROJECT_DIR$/src/Wall.hx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="dragon.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,15 +86,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameClass.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameClass.hx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="18" selection-start="411" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Global.hx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Global.hx">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,7 +98,7 @@
       <file leaf-file-name="PlayState.hx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="586" column="60" selection-start="15607" selection-end="15607" vertical-scroll-proportion="0.0" vertical-offset="8790" max-vertical-offset="9750">
+            <state line="386" column="110" selection-start="9591" selection-end="9591" vertical-scroll-proportion="-12.346154" vertical-offset="5469" max-vertical-offset="9750">
               <folding />
             </state>
           </provider>
@@ -103,7 +116,7 @@
       <file leaf-file-name="Wall.hx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Wall.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="71" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="780">
+            <state line="36" column="68" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -130,7 +143,7 @@
       <file leaf-file-name="project.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="50" selection-start="2874" selection-end="2874" vertical-scroll-proportion="0.5792277" vertical-offset="495" max-vertical-offset="1950">
+            <state line="3" column="47" selection-start="97" selection-end="97" vertical-scroll-proportion="0.091836736" vertical-offset="0" max-vertical-offset="1950">
               <folding />
             </state>
           </provider>
@@ -161,6 +174,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -176,8 +192,9 @@
         <option value="$PROJECT_DIR$/src/DragonHead.hx" />
         <option value="$PROJECT_DIR$/src/Star.hx" />
         <option value="$PROJECT_DIR$/src/Hand.hx" />
-        <option value="$PROJECT_DIR$/src/Wall.hx" />
         <option value="$PROJECT_DIR$/src/Global.hx" />
+        <option value="$PROJECT_DIR$/src/FakeState.hx" />
+        <option value="$PROJECT_DIR$/src/Wall.hx" />
         <option value="$PROJECT_DIR$/src/PlayState.hx" />
         <option value="$PROJECT_DIR$/project.xml" />
       </list>
@@ -188,7 +205,7 @@
     <option name="width" value="1440" />
     <option name="height" value="861" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -214,6 +231,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,17 +267,16 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RGB" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -282,6 +299,26 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -366,6 +403,25 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -388,6 +444,7 @@
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
     <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -400,10 +457,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="35" width="1440" height="861" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -411,7 +468,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -423,8 +480,8 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33468285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -448,6 +505,76 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/GameClass.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="411" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="31" selection-start="119" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="586" column="60" selection-start="15607" selection-end="15607" vertical-scroll-proportion="0.0" vertical-offset="8790" max-vertical-offset="9750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Star.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="41" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wall.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="71" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parallax.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="12" selection-start="933" selection-end="1092" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DragonHead.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="37" selection-start="1776" selection-end="1806" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="1935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="50" selection-start="2756" selection-end="3102" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DragonBody.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="22" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hand.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="23" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GameClass.hx">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="18" selection-start="411" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="540">
@@ -620,37 +747,9 @@
         <state line="30" column="36" selection-start="927" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Star.hx">
+    <entry file="file://$PROJECT_DIR$/src/GameClass.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="41" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DragonBody.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="22" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DragonHead.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="37" selection-start="1776" selection-end="1806" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parallax.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="12" selection-start="933" selection-end="1092" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hand.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="19" column="18" selection-start="411" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
@@ -662,30 +761,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
+    <entry file="file://$PROJECT_DIR$/src/Star.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="586" column="60" selection-start="15607" selection-end="15607" vertical-scroll-proportion="0.0" vertical-offset="8790" max-vertical-offset="9750">
+        <state line="9" column="41" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Wall.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="71" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="36" column="68" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameClass.hx">
+    <entry file="file://$PROJECT_DIR$/src/Parallax.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="411" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+        <state line="48" column="12" selection-start="933" selection-end="1092" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DragonHead.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="37" selection-start="1776" selection-end="1806" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DragonBody.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="22" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hand.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="23" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="386" column="110" selection-start="9591" selection-end="9591" vertical-scroll-proportion="-12.346154" vertical-offset="5469" max-vertical-offset="9750">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="50" selection-start="2874" selection-end="2874" vertical-scroll-proportion="0.5792277" vertical-offset="495" max-vertical-offset="1950">
+        <state line="3" column="47" selection-start="97" selection-end="97" vertical-scroll-proportion="0.091836736" vertical-offset="0" max-vertical-offset="1950">
           <folding />
         </state>
       </provider>
@@ -746,7 +873,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

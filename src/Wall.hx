@@ -34,7 +34,7 @@ class Wall extends FlxSprite
 	    x -= Global.speed * FlxG.elapsed;
 	    if (top)
 	    {
-            if (x < Global.dragonHeadX && !count)
+            if (x < Global.dragonHeadX && !count && !Global.gameOver)
             {
                 count = true;
                 Global.total ++;
