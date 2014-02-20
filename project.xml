@@ -42,6 +42,17 @@
 
 
 
+    <assets path="assets">
+        <music path="music/robosmack.ogg" />
+        <music path="music/blindspot.ogg" />
+    </assets>
+
+    <!--
+    <music path="assets/music/robosmack.mp3" id="Music2"/>
+    <music path="assets/music/blindspot.mp3" id="Music1"/>
+    -->
+
+
     <icon path="assets/Icon.png" size="57" unless="android"></icon>
     <icon path="assets/Icon@2x.png" size="114" unless="android"></icon>
     <icon path="assets/Icon-60.png" size="60" unless="android"></icon>
