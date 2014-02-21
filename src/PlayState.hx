@@ -191,9 +191,9 @@ class PlayState extends FlxState
 	private function setMusic():Void
 	{
 	    if (Math.random() < 0.5)
-	        playMusic("assets/music/robosmack.ogg");
+	        playMusic("assets/music/robosmack.mp3");     //ogg  //mp3
 	    else
-	        playMusic("assets/music/blindspot.ogg");
+	        playMusic("assets/music/blindspot.mp3");     //ogg  //mp3
 	}
 
 	private var music:FlxSound;

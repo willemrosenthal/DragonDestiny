@@ -78,19 +78,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayState.hx" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PlayState.hx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="45" selection-start="4624" selection-end="4624" vertical-scroll-proportion="0.6010101" vertical-offset="2657" max-vertical-offset="9750">
+            <state line="189" column="0" selection-start="4514" selection-end="4514" vertical-scroll-proportion="-2.7692308" vertical-offset="2763" max-vertical-offset="9750">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameClass.hx" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GameClass.hx" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GameClass.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="24" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+            <state line="15" column="53" selection-start="373" selection-end="373" vertical-scroll-proportion="0.53317535" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -135,7 +135,7 @@
       <file leaf-file-name="project.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="36" selection-start="1897" selection-end="1906" vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="2115">
+            <state line="40" column="7" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="2115">
               <folding />
             </state>
           </provider>
@@ -144,7 +144,7 @@
       <file leaf-file-name="DragonBody.hx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DragonBody.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="22" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="885">
+            <state line="37" column="22" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="463" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -186,15 +186,16 @@
         <option value="$PROJECT_DIR$/src/Global.hx" />
         <option value="$PROJECT_DIR$/src/FakeState.hx" />
         <option value="$PROJECT_DIR$/src/Wall.hx" />
-        <option value="$PROJECT_DIR$/src/GameClass.hx" />
-        <option value="$PROJECT_DIR$/project.xml" />
         <option value="$PROJECT_DIR$/src/PlayState.hx" />
+        <option value="$PROJECT_DIR$/project.xml" />
+        <option value="$PROJECT_DIR$/src/GameClass.hx" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1554" />
+    <option name="x" value="572" />
+    <option name="y" value="427" />
+    <option name="width" value="1440" />
     <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -224,6 +225,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,7 +260,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -448,14 +449,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1554" height="874" extended-state="0" />
-    <editor active="true" />
+    <frame x="572" y="427" width="1440" height="874" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4409938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4409938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3341615" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -466,14 +468,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14414415" sideWeight="0.6653171" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14375" sideWeight="0.6653171" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33468285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -497,6 +498,41 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Parallax.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="12" selection-start="933" selection-end="1092" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DragonHead.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="37" selection-start="1776" selection-end="1806" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="1935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="36" selection-start="1897" selection-end="1906" vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="2115">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DragonBody.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="22" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hand.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="23" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GameClass.hx">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="18" selection-start="411" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="540">
@@ -739,13 +775,6 @@
         <state line="30" column="36" selection-start="927" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="119" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Star.hx">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="41" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -774,13 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DragonBody.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="22" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Hand.hx">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="23" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -788,23 +810,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameClass.hx">
+    <entry file="file://$PROJECT_DIR$/src/DragonBody.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+        <state line="37" column="22" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="36" selection-start="1897" selection-end="1906" vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="2115">
+        <state line="40" column="7" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="2085">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="45" selection-start="4624" selection-end="4624" vertical-scroll-proportion="0.6010101" vertical-offset="2657" max-vertical-offset="9750">
+        <state line="189" column="0" selection-start="4514" selection-end="4514" vertical-scroll-proportion="-2.7692308" vertical-offset="2763" max-vertical-offset="9750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="31" selection-start="119" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameClass.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="53" selection-start="373" selection-end="373" vertical-scroll-proportion="0.53317535" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>

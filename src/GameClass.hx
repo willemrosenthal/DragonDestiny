@@ -14,7 +14,6 @@ class GameClass extends FlxGame
 		//var ratioX:Float = stageWidth / 1136;
 		//var ratioY:Float = stageHeight / 640;
 		//var ratio:Float = Math.min(ratioX, ratioY);
-        trace("butttt");
         var scale:Float = 3;
 
 		var ratioX:Float = stageWidth / (1136/scale);

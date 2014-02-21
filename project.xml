@@ -43,8 +43,8 @@
 
 
     <assets path="assets">
-        <music path="music/robosmack.ogg" />
-        <music path="music/blindspot.ogg" />
+        <music path="music/robosmack.mp3" />
+        <music path="music/blindspot.mp3" />
     </assets>
 
     <!--
