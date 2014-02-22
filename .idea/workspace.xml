@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a1f03e1-7955-412a-8baf-c1408e3b691a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.xml" afterPath="$PROJECT_DIR$/project.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/music/blindspot.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/music/blindspot.xmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/music/robosmack.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/music/robosmack.xmp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PlayState.hx" afterPath="$PROJECT_DIR$/src/PlayState.hx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dragon.iws" />
@@ -76,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayState.hx" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PlayState.hx" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="189" column="0" selection-start="4514" selection-end="4514" vertical-scroll-proportion="0.0" vertical-offset="2835" max-vertical-offset="9750">
+            <state line="193" column="23" selection-start="4602" selection-end="4609" vertical-scroll-proportion="0.3323782" vertical-offset="2663" max-vertical-offset="9795">
               <folding />
             </state>
           </provider>
@@ -88,7 +92,7 @@
       <file leaf-file-name="GameClass.hx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameClass.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="30" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+            <state line="29" column="30" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -130,10 +134,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="project.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="82" selection-start="659" selection-end="659" vertical-scroll-proportion="0.16574585" vertical-offset="0" max-vertical-offset="2115">
+            <state line="52" column="61" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2115">
               <folding />
             </state>
           </provider>
@@ -184,9 +188,9 @@
         <option value="$PROJECT_DIR$/src/Global.hx" />
         <option value="$PROJECT_DIR$/src/FakeState.hx" />
         <option value="$PROJECT_DIR$/src/Wall.hx" />
-        <option value="$PROJECT_DIR$/src/PlayState.hx" />
         <option value="$PROJECT_DIR$/src/GameClass.hx" />
         <option value="$PROJECT_DIR$/project.xml" />
+        <option value="$PROJECT_DIR$/src/PlayState.hx" />
       </list>
     </option>
   </component>
@@ -221,7 +225,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,7 +260,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,19 +323,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -357,6 +348,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -447,10 +451,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4408922" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4408922" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -814,13 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="0" selection-start="4514" selection-end="4514" vertical-scroll-proportion="0.0" vertical-offset="2835" max-vertical-offset="9750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Global.hx">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="31" selection-start="119" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -837,7 +834,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="82" selection-start="659" selection-end="659" vertical-scroll-proportion="0.16574585" vertical-offset="0" max-vertical-offset="2115">
+        <state line="52" column="61" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2115">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="23" selection-start="4602" selection-end="4609" vertical-scroll-proportion="0.3323782" vertical-offset="2663" max-vertical-offset="9795">
           <folding />
         </state>
       </provider>

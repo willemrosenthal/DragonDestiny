@@ -213,13 +213,16 @@ class PlayState extends FlxState
     {
         cloudsFG.yPos += 5;
         title = new FlxSprite(0, FlxG.height * 0.28);
-        title.loadGraphic("assets/title.png", false, false, 260, 21);
+        //title.loadGraphic("assets/title.png", false, false, 260, 21);
+        title.loadGraphic("assets/dragondestiny.png", false, false, 278, 21);
+
         title.x = (FlxG.width - title.width) * 0.5;
         add(title);
 
 
         subtitle = new FlxSprite(0, title.y + title.height + 29);
-        subtitle.loadGraphic("assets/destiny.png", false, false, 89, 9);
+        //subtitle.loadGraphic("assets/destiny.png", false, false, 89, 9);
+        subtitle.loadGraphic("assets/forever.png", false, false, 93, 9);
         subtitle.x = (FlxG.width - subtitle.width) * 0.5;
         subtitle.alpha = 0;
         add(subtitle);
